@@ -1,0 +1,46 @@
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables & secrets (CRITICAL: never commit actual secrets)
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# Application runtime logs
+logs/
+*.log
+
+# Pytest & test cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Ruff & Linter cache
+.ruff_cache/
+
+# IDE & Editor temporary files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Candidate data protection: prevent committing raw documents, audio, or datasets
+data/*
+!data/.gitkeep

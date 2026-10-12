@@ -1,0 +1,2 @@
+# Keep data directory tracked in Git while ignoring candidate resumes and confidential files.
+# Do NOT store real candidate PII, resumes, or interview recordings in this repository.

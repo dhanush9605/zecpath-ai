@@ -1,0 +1,10 @@
+# ==============================================================================
+# Zecpath AI - Dependencies (Day 3: Environment & Repository Setup)
+# ==============================================================================
+# Minimal dependencies required for testing and code quality enforcement.
+
+# Automated testing framework
+pytest>=8.0.0
+
+# Fast Python linter and code formatter
+ruff>=0.4.0
