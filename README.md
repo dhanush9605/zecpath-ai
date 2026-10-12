@@ -12,39 +12,28 @@ The goal of Zecpath AI is to streamline the hiring lifecycle using specialized, 
 - Structured screening and interactive conversational interview agents.
 - Comprehensive, multi-dimensional candidate evaluation and ranking.
 
-### Current Implementation Status (Day 3: Environment & Repository Setup)
-- **Implemented (Day 3)**:
-  - Repository directory structure and modular Python packages (`parsers`, `ats_engine`, `screening_ai`, `interview_ai`, `scoring`, `utils`).
-  - Isolated virtual environment configuration (`.venv`).
-  - Production-grade logging utility (`utils/logger.py`) supporting console and file logging, automatic directory provisioning, duplicate handler avoidance, and PII/credential redaction.
-  - Automated setup and sanity test suite (`tests/test_setup.py`) using `pytest`.
-  - Code formatting and linting setup with `ruff`.
-  - Secure Git configuration excluding virtual environments, cache files, environment secrets, and sensitive candidate records.
-- **Future Deliverables (Days 4+)**:
-  - Implementation of individual AI engines (ATS matching, parser extractors, screening intelligence, interactive interview engines, and scoring algorithms).
-
 ---
 
 ## 2. Repository Structure
 
 ```text
 zecpath-ai/
-├── .env.example          # Environment variable template (copy to .env locally)
+├── .env.example          # Environment variable template
 ├── .gitignore             # Comprehensive Git exclusion rules
 ├── pyproject.toml         # Tool configurations for pytest and Ruff
 ├── requirements.txt       # Project dependencies (pytest, ruff)
 ├── README.md              # Project documentation and setup guide
-├── data/                  # Data directory for sample schemas (candidate PII strictly excluded)
+├── data/                  # Data directory for sample schemas
 │   └── .gitkeep
-├── parsers/               # Resume and job description document extraction
+├── parsers/               # Resume and job description parsing
 │   └── __init__.py
-├── ats_engine/            # ATS keyword matching, qualification rules, and profile indexing
+├── ats_engine/            # ATS keyword matching and qualification rules
 │   └── __init__.py
-├── screening_ai/          # Candidate pre-screening and qualification assessment
+├── screening_ai/          # Candidate screening and assessment
 │   └── __init__.py
-├── interview_ai/          # Technical and behavioral conversational interview agents
+├── interview_ai/          # Technical and behavioral interview modules
 │   └── __init__.py
-├── scoring/               # Multi-stage evaluation score aggregation and ranking
+├── scoring/               # Candidate scoring and evaluation
 │   └── __init__.py
 ├── utils/                 # Shared utilities and helpers
 │   ├── __init__.py
@@ -64,9 +53,9 @@ zecpath-ai/
 
 ### Windows PowerShell Setup Instructions
 
-1. **Clone or Navigate to the Workspace**:
+1. **Clone or Navigate to the Project Directory**:
    ```powershell
-   cd c:\Users\dhanu\Downloads\Zescer\zecpath-ai
+   cd path\to\zecpath-ai
    ```
 
 2. **Create the Python Virtual Environment**:
@@ -86,11 +75,6 @@ zecpath-ai/
    python -m pip install -r requirements.txt
    ```
 
-5. **Configure Environment Variables**:
-   ```powershell
-   Copy-Item .env.example .env
-   ```
-
 ---
 
 ## 4. Running Tests & Quality Checks
@@ -98,27 +82,27 @@ zecpath-ai/
 ### Run Automated Tests
 Execute the setup and sanity test suite with `pytest`:
 ```powershell
-pytest
+python -m pytest
 ```
 For verbose output:
 ```powershell
-pytest -v
+python -m pytest -v
 ```
 
 ### Run Linting and Code Quality (Ruff)
 Check for code style, import sorting, and lint errors:
 ```powershell
-ruff check .
+python -m ruff check .
 ```
 
 To automatically apply fixes:
 ```powershell
-ruff check --fix .
+python -m ruff check --fix .
 ```
 
 To verify code formatting:
 ```powershell
-ruff format --check .
+python -m ruff format --check .
 ```
 
 ---
