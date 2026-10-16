@@ -1,0 +1,29 @@
+PRIYA SHARMA
+Email: priya.sharma.tech@example.com | Phone: +1-206-555-0144 | Location: Seattle, WA
+LinkedIn: linkedin.com/in/priyasharma-web | Portfolio: priyasharma.dev
+
+SUMMARY
+Lead Frontend Engineer with 6+ years driving design systems, accessible UI/UX, and high-performance Web applications using React, TypeScript, Next.js, and GraphQL.
+
+SKILLS
+- Core Web: TypeScript, JavaScript (ESNext), HTML5, CSS3, Web Components
+- Frameworks: React, Next.js, Vue.js, Tailwind CSS, Redux Toolkit, Zustand
+- Tooling: Webpack, Vite, Jest, Playwright, Storybook, Figma
+
+EXPERIENCE
+Lead Frontend Engineer | PixelCraft Media | Seattle, WA
+January 2022 - Present
+- Led a team of 6 engineers revamping customer dashboard in Next.js 14, improving Core Web Vitals (LCP improved by 65%).
+- Created an enterprise accessible component library across 4 consumer products reaching WCAG 2.1 AA compliance.
+
+Frontend Developer | InnovateWeb | Austin, TX
+August 2018 - December 2021
+- Built responsive client portal utilizing React and TypeScript integrated with GraphQL APIs.
+- Cut client-side bundle size by 42% through code-splitting and dynamic imports.
+
+EDUCATION
+Bachelor of Engineering in Information Technology | University of Washington (2014 - 2018)
+First Class Honors
+
+CERTIFICATIONS
+- Meta Certified Front-End Developer (Meta, 2021)

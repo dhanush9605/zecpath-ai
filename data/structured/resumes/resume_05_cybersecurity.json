@@ -1,0 +1,121 @@
+{
+  "candidate_id": "cand-005-cybersec",
+  "contact_info": {
+    "full_name": "David Okafor",
+    "email": "david.okafor.sec@example.com",
+    "phone": "+1-202-555-0133",
+    "location": {
+      "city": "Washington",
+      "state_or_province": "DC",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/david-okafor-sec",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Senior Cyber Security & SOC Incident Response Lead (CISSP)",
+  "professional_summary": "Senior Cybersecurity & SOC Incident Response Lead with 6+ years protecting critical financial and defense digital assets. Certified Information Systems Security Professional (CISSP).",
+  "target_role": "Lead Information Security Officer",
+  "domain": "Cybersecurity & Threat Analysis",
+  "total_experience_years": 6.3,
+  "skills": [
+    {
+      "name": "SIEM / Splunk",
+      "category": "TOOL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "CrowdStrike EDR",
+      "category": "TOOL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.5,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Incident Response",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "NIST Cybersecurity Framework",
+      "category": "DOMAIN",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Apex Defense Systems",
+      "designation": "Senior Information Security Analyst",
+      "standardized_title": "Senior Cyber Security Analyst",
+      "seniority": "SENIOR",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Washington",
+        "state_or_province": "DC",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2020-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Developed automated threat hunting playbooks reducing incident MTTR by 45%."
+      ],
+      "technologies_used": [
+        "Splunk",
+        "CrowdStrike",
+        "Python",
+        "Zeek"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "Johns Hopkins University",
+      "degree": "Master of Science in Cybersecurity",
+      "degree_level": "MASTER",
+      "field_of_study": "Cybersecurity",
+      "start_year": 2018,
+      "end_year": 2020,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Information Systems Security Professional (CISSP)",
+      "issuing_organization": "(ISC)²",
+      "issue_date": "2022-03",
+      "expiry_date": null,
+      "credential_id": "CISSP-774411",
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_05_cybersecurity.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.98
+  }
+}

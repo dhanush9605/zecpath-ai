@@ -41,6 +41,12 @@ htmlcov/
 Thumbs.db
 desktop.ini
 
-# Candidate data protection: prevent committing raw documents, audio, or datasets
+# Candidate data protection: prevent committing sensitive production dumps or audio
 data/*
 !data/.gitkeep
+!data/schemas/
+!data/schemas/**
+!data/raw/
+!data/raw/**
+!data/structured/
+!data/structured/**

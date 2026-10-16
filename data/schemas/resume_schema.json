@@ -1,0 +1,807 @@
+{
+  "$defs": {
+    "CandidateMetadata": {
+      "description": "Extraction provenance and processing audit metadata.",
+      "properties": {
+        "source_file_name": {
+          "description": "Original resume document file name",
+          "title": "Source File Name",
+          "type": "string"
+        },
+        "parser_version": {
+          "default": "0.1.0",
+          "description": "Parser engine semantic version",
+          "title": "Parser Version",
+          "type": "string"
+        },
+        "extracted_at": {
+          "description": "ISO 8601 extraction timestamp",
+          "title": "Extracted At",
+          "type": "string"
+        },
+        "confidence_score": {
+          "default": 1.0,
+          "description": "Aggregate extraction confidence score (0.0 to 1.0)",
+          "maximum": 1.0,
+          "minimum": 0.0,
+          "title": "Confidence Score",
+          "type": "number"
+        }
+      },
+      "required": [
+        "source_file_name",
+        "extracted_at"
+      ],
+      "title": "CandidateMetadata",
+      "type": "object"
+    },
+    "CertificationObject": {
+      "description": "Professional licenses, vendor certifications, and accredited credentials.",
+      "properties": {
+        "name": {
+          "description": "Official credential title",
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "issuing_organization": {
+          "description": "Certifying entity or institute",
+          "minLength": 1,
+          "title": "Issuing Organization",
+          "type": "string"
+        },
+        "issue_date": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{4}(-\\d{2})?$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Issue date (YYYY or YYYY-MM)",
+          "title": "Issue Date"
+        },
+        "expiry_date": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{4}(-\\d{2})?$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Expiration date (YYYY or YYYY-MM), null if lifetime",
+          "title": "Expiry Date"
+        },
+        "credential_id": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Unique verification ID or serial code",
+          "title": "Credential Id"
+        },
+        "verification_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Public URL for credential verification",
+          "title": "Verification Url"
+        }
+      },
+      "required": [
+        "name",
+        "issuing_organization"
+      ],
+      "title": "CertificationObject",
+      "type": "object"
+    },
+    "ContactInfo": {
+      "description": "Personal and digital contact information of the candidate.",
+      "properties": {
+        "full_name": {
+          "description": "Candidate legal or preferred name",
+          "minLength": 1,
+          "title": "Full Name",
+          "type": "string"
+        },
+        "email": {
+          "description": "Standardized email address",
+          "pattern": "^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$",
+          "title": "Email",
+          "type": "string"
+        },
+        "phone": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Contact phone number with country code",
+          "title": "Phone"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocationObject"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Current residence or base location"
+        },
+        "linkedin_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "LinkedIn profile URL",
+          "title": "Linkedin Url"
+        },
+        "github_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "GitHub or code repository URL",
+          "title": "Github Url"
+        },
+        "portfolio_url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Personal website or portfolio URL",
+          "title": "Portfolio Url"
+        }
+      },
+      "required": [
+        "full_name",
+        "email"
+      ],
+      "title": "ContactInfo",
+      "type": "object"
+    },
+    "DegreeLevel": {
+      "description": "Standard academic degree classifications.",
+      "enum": [
+        "HIGH_SCHOOL",
+        "ASSOCIATE",
+        "BACHELOR",
+        "MASTER",
+        "DOCTORATE",
+        "DIPLOMA",
+        "CERTIFICATE",
+        "OTHER"
+      ],
+      "title": "DegreeLevel",
+      "type": "string"
+    },
+    "EducationObject": {
+      "description": "Academic credential and formal degree structure.",
+      "properties": {
+        "institution_name": {
+          "description": "College, university, or school",
+          "minLength": 1,
+          "title": "Institution Name",
+          "type": "string"
+        },
+        "degree": {
+          "description": "Degree title (e.g. Bachelor of Science)",
+          "minLength": 1,
+          "title": "Degree",
+          "type": "string"
+        },
+        "degree_level": {
+          "$ref": "#/$defs/DegreeLevel",
+          "default": "BACHELOR",
+          "description": "Standard degree classification"
+        },
+        "field_of_study": {
+          "description": "Major, discipline, or focus",
+          "minLength": 1,
+          "title": "Field Of Study",
+          "type": "string"
+        },
+        "start_year": {
+          "anyOf": [
+            {
+              "minimum": 1950,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Matriculation year",
+          "title": "Start Year"
+        },
+        "end_year": {
+          "anyOf": [
+            {
+              "minimum": 1950,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Graduation or completion year",
+          "title": "End Year"
+        },
+        "is_current": {
+          "default": false,
+          "description": "Whether study is currently in progress",
+          "title": "Is Current",
+          "type": "boolean"
+        },
+        "grade_or_gpa": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Normalized grade, percentage, or GPA score (e.g. 3.8/4.0, First Class)",
+          "title": "Grade Or Gpa"
+        }
+      },
+      "required": [
+        "institution_name",
+        "degree",
+        "field_of_study"
+      ],
+      "title": "EducationObject",
+      "type": "object"
+    },
+    "EmploymentType": {
+      "description": "Standard employment arrangement types.",
+      "enum": [
+        "FULL_TIME",
+        "PART_TIME",
+        "CONTRACT",
+        "INTERNSHIP",
+        "FREELANCE"
+      ],
+      "title": "EmploymentType",
+      "type": "string"
+    },
+    "ExperienceObject": {
+      "description": "Granular work experience entry detailing employment tenure and accomplishments.",
+      "properties": {
+        "company_name": {
+          "description": "Legal or common name of employer",
+          "minLength": 1,
+          "title": "Company Name",
+          "type": "string"
+        },
+        "designation": {
+          "description": "Official job title as reported",
+          "minLength": 1,
+          "title": "Designation",
+          "type": "string"
+        },
+        "standardized_title": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Standardized industry job title for canonical taxonomy mapping",
+          "title": "Standardized Title"
+        },
+        "seniority": {
+          "$ref": "#/$defs/SeniorityLevel",
+          "default": "MID",
+          "description": "Calculated or matched seniority level"
+        },
+        "employment_type": {
+          "$ref": "#/$defs/EmploymentType",
+          "default": "FULL_TIME",
+          "description": "Type of employment engagement"
+        },
+        "location": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/LocationObject"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Geographic location of role"
+        },
+        "start_date": {
+          "description": "Start date in ISO format YYYY or YYYY-MM",
+          "pattern": "^\\d{4}(-\\d{2})?$",
+          "title": "Start Date",
+          "type": "string"
+        },
+        "end_date": {
+          "anyOf": [
+            {
+              "pattern": "^\\d{4}(-\\d{2})?$",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "End date in ISO format YYYY or YYYY-MM (null if current)",
+          "title": "End Date"
+        },
+        "is_current": {
+          "default": false,
+          "description": "Flag indicating active ongoing tenure",
+          "title": "Is Current",
+          "type": "boolean"
+        },
+        "duration_in_months": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Calculated duration of tenure in calendar months",
+          "title": "Duration In Months"
+        },
+        "description": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": "",
+          "description": "Summary narrative of role context and team scope",
+          "title": "Description"
+        },
+        "responsibilities": {
+          "description": "List of primary functional duties",
+          "items": {
+            "type": "string"
+          },
+          "title": "Responsibilities",
+          "type": "array"
+        },
+        "achievements": {
+          "description": "Measurable impact, achievements, and quantified metrics (STAR format)",
+          "items": {
+            "type": "string"
+          },
+          "title": "Achievements",
+          "type": "array"
+        },
+        "technologies_used": {
+          "description": "Specific tools, languages, and technologies actively utilized in this role",
+          "items": {
+            "type": "string"
+          },
+          "title": "Technologies Used",
+          "type": "array"
+        }
+      },
+      "required": [
+        "company_name",
+        "designation",
+        "start_date"
+      ],
+      "title": "ExperienceObject",
+      "type": "object"
+    },
+    "LanguageProficiencyObject": {
+      "description": "Spoken and written language competency.",
+      "properties": {
+        "language": {
+          "description": "Language name",
+          "minLength": 1,
+          "title": "Language",
+          "type": "string"
+        },
+        "proficiency": {
+          "default": "PROFICIENT",
+          "description": "Fluency level (e.g. NATIVE, FLUENT, PROFESSIONAL_WORKING, CONVERSATIONAL)",
+          "title": "Proficiency",
+          "type": "string"
+        }
+      },
+      "required": [
+        "language"
+      ],
+      "title": "LanguageProficiencyObject",
+      "type": "object"
+    },
+    "LocationObject": {
+      "description": "Geographic location structure with remote flag.",
+      "properties": {
+        "city": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "City name",
+          "title": "City"
+        },
+        "state_or_province": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "State, province, or region",
+          "title": "State Or Province"
+        },
+        "country": {
+          "default": "Unknown",
+          "description": "Country name or ISO code",
+          "title": "Country",
+          "type": "string"
+        },
+        "is_remote": {
+          "default": false,
+          "description": "Whether position/location is fully remote",
+          "title": "Is Remote",
+          "type": "boolean"
+        }
+      },
+      "title": "LocationObject",
+      "type": "object"
+    },
+    "ProjectObject": {
+      "description": "Notable personal, open-source, or client project highlight.",
+      "properties": {
+        "title": {
+          "description": "Project title",
+          "minLength": 1,
+          "title": "Title",
+          "type": "string"
+        },
+        "role": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Candidate role on project",
+          "title": "Role"
+        },
+        "description": {
+          "default": "",
+          "description": "High-level project scope and architecture",
+          "title": "Description",
+          "type": "string"
+        },
+        "technologies": {
+          "description": "Tech stack employed",
+          "items": {
+            "type": "string"
+          },
+          "title": "Technologies",
+          "type": "array"
+        },
+        "outcomes": {
+          "description": "Quantified outcomes or metrics",
+          "items": {
+            "type": "string"
+          },
+          "title": "Outcomes",
+          "type": "array"
+        },
+        "url": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Repository, live demo, or case study URL",
+          "title": "Url"
+        }
+      },
+      "required": [
+        "title"
+      ],
+      "title": "ProjectObject",
+      "type": "object"
+    },
+    "SeniorityLevel": {
+      "description": "Normalized seniority level hierarchy.",
+      "enum": [
+        "ENTRY",
+        "JUNIOR",
+        "MID",
+        "SENIOR",
+        "LEAD",
+        "PRINCIPAL",
+        "DIRECTOR",
+        "EXECUTIVE"
+      ],
+      "title": "SeniorityLevel",
+      "type": "string"
+    },
+    "SkillCategory": {
+      "description": "Categorical classification of skills for AI screening and taxonomy mapping.",
+      "enum": [
+        "TECHNICAL",
+        "FRAMEWORK",
+        "TOOL",
+        "DATABASE",
+        "CLOUD_DEVOPS",
+        "SOFT",
+        "DOMAIN",
+        "LANGUAGE",
+        "METHODOLOGY"
+      ],
+      "title": "SkillCategory",
+      "type": "string"
+    },
+    "SkillObject": {
+      "description": "Standardized representation of a single skill entity.",
+      "properties": {
+        "name": {
+          "description": "Standardized canonical skill name",
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "category": {
+          "$ref": "#/$defs/SkillCategory",
+          "default": "TECHNICAL",
+          "description": "Skill taxonomy category"
+        },
+        "proficiency": {
+          "$ref": "#/$defs/SkillProficiency",
+          "default": "UNSPECIFIED",
+          "description": "Proficiency level assessed or claimed"
+        },
+        "years_of_experience": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Estimated or stated years of experience with this skill",
+          "title": "Years Of Experience"
+        },
+        "last_used_year": {
+          "anyOf": [
+            {
+              "minimum": 1970,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The most recent calendar year the skill was actively applied",
+          "title": "Last Used Year"
+        },
+        "verified": {
+          "default": false,
+          "description": "Whether skill was verified through assessment or validated portfolio",
+          "title": "Verified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "SkillObject",
+      "type": "object"
+    },
+    "SkillProficiency": {
+      "description": "Normalized proficiency level for candidate skill matching.",
+      "enum": [
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "EXPERT",
+        "UNSPECIFIED"
+      ],
+      "title": "SkillProficiency",
+      "type": "string"
+    }
+  },
+  "description": "Standardized AI-ready JSON schema for candidate profiles, resumes, and CV extraction.",
+  "properties": {
+    "candidate_id": {
+      "description": "Unique candidate identifier or UUID",
+      "minLength": 1,
+      "title": "Candidate Id",
+      "type": "string"
+    },
+    "contact_info": {
+      "$ref": "#/$defs/ContactInfo",
+      "description": "Contact and personal information"
+    },
+    "headline": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Professional headline or tagline",
+      "title": "Headline"
+    },
+    "professional_summary": {
+      "default": "",
+      "description": "Executive summary of background, competencies, and achievements",
+      "title": "Professional Summary",
+      "type": "string"
+    },
+    "target_role": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Desired target job title or role",
+      "title": "Target Role"
+    },
+    "domain": {
+      "description": "Primary industry domain (e.g. Backend, Data Science, HR, Finance)",
+      "title": "Domain",
+      "type": "string"
+    },
+    "total_experience_years": {
+      "default": 0.0,
+      "description": "Calculated total cumulative professional experience in years",
+      "minimum": 0.0,
+      "title": "Total Experience Years",
+      "type": "number"
+    },
+    "skills": {
+      "description": "Extracted and normalized skills",
+      "items": {
+        "$ref": "#/$defs/SkillObject"
+      },
+      "title": "Skills",
+      "type": "array"
+    },
+    "experience": {
+      "description": "Chronological work history records",
+      "items": {
+        "$ref": "#/$defs/ExperienceObject"
+      },
+      "title": "Experience",
+      "type": "array"
+    },
+    "education": {
+      "description": "Formal academic credentials",
+      "items": {
+        "$ref": "#/$defs/EducationObject"
+      },
+      "title": "Education",
+      "type": "array"
+    },
+    "certifications": {
+      "description": "Professional certifications and credentials",
+      "items": {
+        "$ref": "#/$defs/CertificationObject"
+      },
+      "title": "Certifications",
+      "type": "array"
+    },
+    "projects": {
+      "description": "Notable projects and case studies",
+      "items": {
+        "$ref": "#/$defs/ProjectObject"
+      },
+      "title": "Projects",
+      "type": "array"
+    },
+    "languages": {
+      "description": "Spoken and written language proficiencies",
+      "items": {
+        "$ref": "#/$defs/LanguageProficiencyObject"
+      },
+      "title": "Languages",
+      "type": "array"
+    },
+    "metadata": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/CandidateMetadata"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Extraction provenance and audit metadata"
+    }
+  },
+  "required": [
+    "candidate_id",
+    "contact_info",
+    "domain"
+  ],
+  "title": "ZecpathResumeSchema",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

@@ -1,0 +1,22 @@
+JOB REQUISITION: Senior Backend Distributed Systems Engineer
+Company: CloudScale Infrastructure Inc.
+Location: San Francisco, CA (Hybrid)
+Role Type: Technical | Employment Type: Full-time
+
+ABOUT THE ROLE:
+CloudScale is looking for an experienced Senior Backend Distributed Systems Engineer to scale our transactional core engine processing over 50M API transactions daily.
+
+RESPONSIBILITIES:
+- Architect, build, and deploy low-latency, event-driven microservices in Go and Python.
+- Maintain mission-critical PostgreSQL and Kafka clustering with zero downtime guarantees.
+- Mentor mid-level and junior engineers on distributed consensus, testing, and production telemetry.
+
+REQUIREMENTS:
+- Minimum 5+ years of production experience in backend or systems engineering.
+- Expertise in Go or Python with deep knowledge of concurrency, garbage collection, and profiling.
+- Strong hands-on experience with Kafka, PostgreSQL, Docker, and Kubernetes.
+- Bachelor's degree in Computer Science or equivalent practical experience.
+
+COMPENSATION & BENEFITS:
+- $165,000 - $210,000 base annual salary + equity
+- Comprehensive health, dental, and 401(k) matching

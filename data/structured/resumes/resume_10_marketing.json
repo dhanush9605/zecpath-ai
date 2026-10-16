@@ -1,0 +1,125 @@
+{
+  "candidate_id": "cand-010-marketing",
+  "contact_info": {
+    "full_name": "Chloe Dupont",
+    "email": "chloe.dupont.growth@example.com",
+    "phone": "+1-512-555-0105",
+    "location": {
+      "city": "Austin",
+      "state_or_province": "TX",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/chloe-dupont-growth",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Growth Marketing & Performance Acquisition Lead",
+  "professional_summary": "Growth Marketing Lead with 6+ years executing performance marketing, conversion rate optimization (CRO), and multichannel customer acquisition strategies generating $22M+ in pipeline revenue.",
+  "target_role": "Director of Growth Marketing",
+  "domain": "Digital Growth & Marketing",
+  "total_experience_years": 6.3,
+  "skills": [
+    {
+      "name": "Performance Marketing & Paid Ads",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Conversion Rate Optimization (CRO)",
+      "category": "METHODOLOGY",
+      "proficiency": "EXPERT",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Google Analytics 4 / GA4",
+      "category": "TOOL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Attribution Modeling & SQL",
+      "category": "TECHNICAL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.5,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "ScaleUp SaaS",
+      "designation": "Growth Marketing Lead",
+      "standardized_title": "Growth Marketing Lead",
+      "seniority": "LEAD",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Austin",
+        "state_or_province": "TX",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-05",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Scaled inbound pipeline by 145% YoY and cut customer acquisition costs by 26%."
+      ],
+      "technologies_used": [
+        "Google Ads",
+        "HubSpot",
+        "GA4",
+        "Optimizely"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "University of Texas at Austin",
+      "degree": "Bachelor of Science in Marketing & Communications",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Marketing & Communications",
+      "start_year": 2014,
+      "end_year": 2018,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Google Ads Search Professional",
+      "issuing_organization": "Google",
+      "issue_date": "2023-02",
+      "expiry_date": null,
+      "credential_id": null,
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "French",
+      "proficiency": "PROFICIENT"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_10_marketing.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.99
+  }
+}

@@ -22,4 +22,7 @@ select = [
     "UP",  # pyupgrade
     "B",   # flake8-bugbear
 ]
-ignore = []
+ignore = [
+    "E501",  # Line length handled by formatter; relaxed for multiline dataset fixtures and prompts
+    "E402",  # Allow sys.path mutations in standalone execution scripts
+]

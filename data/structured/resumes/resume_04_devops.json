@@ -1,0 +1,126 @@
+{
+  "candidate_id": "cand-004-devops",
+  "contact_info": {
+    "full_name": "Elena Rostova",
+    "email": "elena.rostova.ops@example.com",
+    "phone": "+1-312-555-0177",
+    "location": {
+      "city": "Chicago",
+      "state_or_province": "IL",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/elena-rostova-cloud",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Principal DevOps & Cloud Infrastructure Architect",
+  "professional_summary": "Principal DevOps & Cloud Platform Architect with 8+ years designing zero-trust cloud infrastructure on AWS and GCP. Expert in Kubernetes cluster lifecycle, Infrastructure as Code with Terraform, and DevSecOps compliance.",
+  "target_role": "Principal Cloud Platform Architect",
+  "domain": "DevOps & Cloud Infrastructure",
+  "total_experience_years": 8.3,
+  "skills": [
+    {
+      "name": "AWS",
+      "category": "CLOUD_DEVOPS",
+      "proficiency": "EXPERT",
+      "years_of_experience": 8.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Kubernetes",
+      "category": "CLOUD_DEVOPS",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.5,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Terraform",
+      "category": "TOOL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "ArgoCD",
+      "category": "TOOL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "FinTech Cloudworks",
+      "designation": "Principal Cloud Architect",
+      "standardized_title": "Principal DevOps Architect",
+      "seniority": "PRINCIPAL",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Chicago",
+        "state_or_province": "IL",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2020-04",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Designed multi-region EKS clusters achieving 99.999% SLA and reduced provisioning time by 80%."
+      ],
+      "technologies_used": [
+        "AWS",
+        "Terraform",
+        "Kubernetes",
+        "Datadog",
+        "ArgoCD"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "University of Illinois Urbana-Champaign",
+      "degree": "Bachelor of Science in Electrical & Computer Engineering",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Electrical & Computer Engineering",
+      "start_year": 2012,
+      "end_year": 2016,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Professional",
+      "issuing_organization": "Amazon Web Services",
+      "issue_date": "2023-01",
+      "expiry_date": null,
+      "credential_id": "AWS-SAP-998811",
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "Russian",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_04_devops.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.98
+  }
+}

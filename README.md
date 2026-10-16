@@ -135,3 +135,30 @@ logger.warning("Resource usage threshold warning.")
 2. **Type Annotations**: Use Python type hints on all public function signatures.
 3. **No Hardcoded Secrets**: Load secrets via environment variables. Never commit `.env` or credentials to version control.
 4. **Data Protection**: Never commit real candidate resumes, personal contact info, or confidential company datasets to the repository.
+
+---
+
+## 7. Day 4 — Data Understanding & Structuring
+
+Day 4 establishes the standard AI data schemas and entity models for unstructured resume extraction and job description matching.
+
+### Key Deliverables:
+- **Resume Schema**: `data/schemas/resume_schema.json` (Draft 2020-12)
+- **Job Description Schema**: `data/schemas/job_description_schema.json` (Draft 2020-12)
+- **AI Data Entity Design Document**: `docs/AI_DATA_ENTITY_DESIGN.md`
+- **Pydantic AI Models**: `parsers/models/candidate.py`, `parsers/models/job.py`, `parsers/models/entities.py`
+- **10 Multi-Domain Resumes**: `data/raw/resumes/` & `data/structured/resumes/`
+- **4 Tech & Non-Tech JDs**: `data/raw/job_descriptions/` & `data/structured/job_descriptions/`
+
+### Running the Supervisor Proof Script
+To verify all 10 resumes and 4 job descriptions against schemas with formatted summary tables:
+```powershell
+python scripts/verify_day4.py
+```
+
+### Launching the Interactive Web Dashboard
+To visually inspect resumes, raw text vs structured AI JSON, and test schema validation in your browser:
+```powershell
+python scripts/run_viewer.py
+```
+Open [http://localhost:8000](http://localhost:8000) in your web browser.

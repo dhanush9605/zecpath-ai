@@ -1,0 +1,416 @@
+{
+  "$defs": {
+    "DegreeLevel": {
+      "description": "Standard academic degree classifications.",
+      "enum": [
+        "HIGH_SCHOOL",
+        "ASSOCIATE",
+        "BACHELOR",
+        "MASTER",
+        "DOCTORATE",
+        "DIPLOMA",
+        "CERTIFICATE",
+        "OTHER"
+      ],
+      "title": "DegreeLevel",
+      "type": "string"
+    },
+    "EmploymentType": {
+      "description": "Standard employment arrangement types.",
+      "enum": [
+        "FULL_TIME",
+        "PART_TIME",
+        "CONTRACT",
+        "INTERNSHIP",
+        "FREELANCE"
+      ],
+      "title": "EmploymentType",
+      "type": "string"
+    },
+    "JobRequirements": {
+      "description": "Categorized screening requirements for the vacancy.",
+      "properties": {
+        "minimum_experience_years": {
+          "default": 0.0,
+          "description": "Minimum mandatory years of professional experience",
+          "minimum": 0.0,
+          "title": "Minimum Experience Years",
+          "type": "number"
+        },
+        "required_skills": {
+          "description": "Mandatory skills required for ATS qualification",
+          "items": {
+            "$ref": "#/$defs/SkillObject"
+          },
+          "title": "Required Skills",
+          "type": "array"
+        },
+        "preferred_skills": {
+          "description": "Nice-to-have supplementary skills",
+          "items": {
+            "$ref": "#/$defs/SkillObject"
+          },
+          "title": "Preferred Skills",
+          "type": "array"
+        },
+        "minimum_education_level": {
+          "$ref": "#/$defs/DegreeLevel",
+          "default": "BACHELOR",
+          "description": "Baseline academic qualification requirement"
+        },
+        "required_certifications": {
+          "description": "Mandatory certifications or active licenses",
+          "items": {
+            "type": "string"
+          },
+          "title": "Required Certifications",
+          "type": "array"
+        }
+      },
+      "title": "JobRequirements",
+      "type": "object"
+    },
+    "LocationObject": {
+      "description": "Geographic location structure with remote flag.",
+      "properties": {
+        "city": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "City name",
+          "title": "City"
+        },
+        "state_or_province": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "State, province, or region",
+          "title": "State Or Province"
+        },
+        "country": {
+          "default": "Unknown",
+          "description": "Country name or ISO code",
+          "title": "Country",
+          "type": "string"
+        },
+        "is_remote": {
+          "default": false,
+          "description": "Whether position/location is fully remote",
+          "title": "Is Remote",
+          "type": "boolean"
+        }
+      },
+      "title": "LocationObject",
+      "type": "object"
+    },
+    "PayPeriod": {
+      "description": "Frequency of compensation calculation.",
+      "enum": [
+        "ANNUAL",
+        "MONTHLY",
+        "HOURLY"
+      ],
+      "title": "PayPeriod",
+      "type": "string"
+    },
+    "RoleType": {
+      "description": "Job and role classification category.",
+      "enum": [
+        "TECHNICAL",
+        "NON_TECHNICAL",
+        "HYBRID"
+      ],
+      "title": "RoleType",
+      "type": "string"
+    },
+    "SalaryRange": {
+      "description": "Structured compensation and remuneration bracket.",
+      "properties": {
+        "currency": {
+          "default": "USD",
+          "description": "Currency ISO 4217 code (e.g. USD, EUR, INR)",
+          "title": "Currency",
+          "type": "string"
+        },
+        "min_amount": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Minimum base salary",
+          "title": "Min Amount"
+        },
+        "max_amount": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Maximum base salary",
+          "title": "Max Amount"
+        },
+        "pay_period": {
+          "$ref": "#/$defs/PayPeriod",
+          "default": "ANNUAL",
+          "description": "Pay frequency period"
+        }
+      },
+      "title": "SalaryRange",
+      "type": "object"
+    },
+    "SeniorityLevel": {
+      "description": "Normalized seniority level hierarchy.",
+      "enum": [
+        "ENTRY",
+        "JUNIOR",
+        "MID",
+        "SENIOR",
+        "LEAD",
+        "PRINCIPAL",
+        "DIRECTOR",
+        "EXECUTIVE"
+      ],
+      "title": "SeniorityLevel",
+      "type": "string"
+    },
+    "SkillCategory": {
+      "description": "Categorical classification of skills for AI screening and taxonomy mapping.",
+      "enum": [
+        "TECHNICAL",
+        "FRAMEWORK",
+        "TOOL",
+        "DATABASE",
+        "CLOUD_DEVOPS",
+        "SOFT",
+        "DOMAIN",
+        "LANGUAGE",
+        "METHODOLOGY"
+      ],
+      "title": "SkillCategory",
+      "type": "string"
+    },
+    "SkillObject": {
+      "description": "Standardized representation of a single skill entity.",
+      "properties": {
+        "name": {
+          "description": "Standardized canonical skill name",
+          "minLength": 1,
+          "title": "Name",
+          "type": "string"
+        },
+        "category": {
+          "$ref": "#/$defs/SkillCategory",
+          "default": "TECHNICAL",
+          "description": "Skill taxonomy category"
+        },
+        "proficiency": {
+          "$ref": "#/$defs/SkillProficiency",
+          "default": "UNSPECIFIED",
+          "description": "Proficiency level assessed or claimed"
+        },
+        "years_of_experience": {
+          "anyOf": [
+            {
+              "minimum": 0.0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Estimated or stated years of experience with this skill",
+          "title": "Years Of Experience"
+        },
+        "last_used_year": {
+          "anyOf": [
+            {
+              "minimum": 1970,
+              "type": "integer"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "The most recent calendar year the skill was actively applied",
+          "title": "Last Used Year"
+        },
+        "verified": {
+          "default": false,
+          "description": "Whether skill was verified through assessment or validated portfolio",
+          "title": "Verified",
+          "type": "boolean"
+        }
+      },
+      "required": [
+        "name"
+      ],
+      "title": "SkillObject",
+      "type": "object"
+    },
+    "SkillProficiency": {
+      "description": "Normalized proficiency level for candidate skill matching.",
+      "enum": [
+        "BEGINNER",
+        "INTERMEDIATE",
+        "ADVANCED",
+        "EXPERT",
+        "UNSPECIFIED"
+      ],
+      "title": "SkillProficiency",
+      "type": "string"
+    },
+    "WorkplaceType": {
+      "description": "Work arrangement location model.",
+      "enum": [
+        "ONSITE",
+        "REMOTE",
+        "HYBRID"
+      ],
+      "title": "WorkplaceType",
+      "type": "string"
+    }
+  },
+  "description": "Standardized AI-ready JSON schema for job descriptions, vacancy specifications, and matching criteria.",
+  "properties": {
+    "job_id": {
+      "description": "Unique job requisition identifier",
+      "minLength": 1,
+      "title": "Job Id",
+      "type": "string"
+    },
+    "title": {
+      "description": "Official job title",
+      "minLength": 1,
+      "title": "Title",
+      "type": "string"
+    },
+    "company_name": {
+      "description": "Hiring organization name",
+      "minLength": 1,
+      "title": "Company Name",
+      "type": "string"
+    },
+    "department": {
+      "default": "General",
+      "description": "Department or business unit",
+      "title": "Department",
+      "type": "string"
+    },
+    "role_type": {
+      "$ref": "#/$defs/RoleType",
+      "default": "TECHNICAL",
+      "description": "Technical vs non-technical role type"
+    },
+    "seniority_level": {
+      "$ref": "#/$defs/SeniorityLevel",
+      "default": "MID",
+      "description": "Requisite seniority bracket"
+    },
+    "employment_type": {
+      "$ref": "#/$defs/EmploymentType",
+      "default": "FULL_TIME",
+      "description": "Engagement type"
+    },
+    "workplace_type": {
+      "$ref": "#/$defs/WorkplaceType",
+      "default": "HYBRID",
+      "description": "Work arrangement"
+    },
+    "location": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/LocationObject"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Office or territory location"
+    },
+    "salary_range": {
+      "anyOf": [
+        {
+          "$ref": "#/$defs/SalaryRange"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "default": null,
+      "description": "Compensation range"
+    },
+    "summary": {
+      "default": "",
+      "description": "Executive overview of the role and mission",
+      "title": "Summary",
+      "type": "string"
+    },
+    "responsibilities": {
+      "description": "Core responsibilities and duties",
+      "items": {
+        "type": "string"
+      },
+      "title": "Responsibilities",
+      "type": "array"
+    },
+    "requirements": {
+      "$ref": "#/$defs/JobRequirements",
+      "description": "Screening qualifications and requirements"
+    },
+    "benefits": {
+      "description": "Perks and benefits offered",
+      "items": {
+        "type": "string"
+      },
+      "title": "Benefits",
+      "type": "array"
+    },
+    "created_at": {
+      "description": "ISO 8601 posting creation date",
+      "title": "Created At",
+      "type": "string"
+    },
+    "is_active": {
+      "default": true,
+      "description": "Whether position is currently open",
+      "title": "Is Active",
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "job_id",
+    "title",
+    "company_name",
+    "requirements",
+    "created_at"
+  ],
+  "title": "ZecpathJobDescriptionSchema",
+  "type": "object",
+  "$schema": "https://json-schema.org/draft/2020-12/schema"
+}

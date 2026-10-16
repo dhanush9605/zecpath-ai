@@ -1,0 +1,113 @@
+{
+  "candidate_id": "cand-008-talent",
+  "contact_info": {
+    "full_name": "Sarah Jenkins",
+    "email": "sarah.jenkins.hr@example.com",
+    "phone": "+1-404-555-0121",
+    "location": {
+      "city": "Atlanta",
+      "state_or_province": "GA",
+      "country": "USA",
+      "is_remote": true
+    },
+    "linkedin_url": "https://linkedin.com/in/sarah-jenkins-talent",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Senior Technical Talent Acquisition Partner",
+  "professional_summary": "Senior Technical Talent Acquisition Partner with 6+ years partnering with engineering leadership to hire world-class software, infrastructure, and AI engineering talent. Closed 180+ technical hires.",
+  "target_role": "Lead Technical Talent Partner",
+  "domain": "HR & Talent Acquisition",
+  "total_experience_years": 6.1,
+  "skills": [
+    {
+      "name": "Technical Sourcing",
+      "category": "DOMAIN",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Applicant Tracking Systems (Greenhouse / Ashby)",
+      "category": "TOOL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Diversity & Inclusion Recruiting",
+      "category": "DOMAIN",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "HyperScale AI",
+      "designation": "Senior Technical Recruiter",
+      "standardized_title": "Senior Technical Recruiter",
+      "seniority": "SENIOR",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Atlanta",
+        "state_or_province": "GA",
+        "country": "USA",
+        "is_remote": true
+      },
+      "start_date": "2021-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Maintained a 91% offer acceptance rate and reduced time-to-fill from 62 to 38 days."
+      ],
+      "technologies_used": [
+        "Greenhouse",
+        "LinkedIn Recruiter",
+        "Gem",
+        "Slack"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "University of Georgia",
+      "degree": "Bachelor of Arts in Human Resources Management",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Human Resources Management",
+      "start_year": 2014,
+      "end_year": 2018,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "SHRM Certified Professional (SHRM-CP)",
+      "issuing_organization": "Society for Human Resource Management",
+      "issue_date": "2021-06",
+      "expiry_date": null,
+      "credential_id": "SHRM-CP-55221",
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_08_hr_talent.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.99
+  }
+}

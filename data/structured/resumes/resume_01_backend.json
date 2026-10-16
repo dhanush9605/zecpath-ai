@@ -1,0 +1,193 @@
+{
+  "candidate_id": "cand-001-backend",
+  "contact_info": {
+    "full_name": "Alex Chen",
+    "email": "alex.chen.dev@example.com",
+    "phone": "+1-415-555-0192",
+    "location": {
+      "city": "San Francisco",
+      "state_or_province": "CA",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/alexchen-backend",
+    "github_url": "https://github.com/alexchen-cloud",
+    "portfolio_url": null
+  },
+  "headline": "Senior Backend & Distributed Systems Engineer",
+  "professional_summary": "Senior Backend Engineer with 7+ years of experience designing high-throughput, fault-tolerant distributed systems. Specialized in Go, Python, gRPC microservices, and event-driven architectures processing 50M+ events daily.",
+  "target_role": "Staff Distributed Systems Engineer",
+  "domain": "Backend Software Engineering",
+  "total_experience_years": 7.5,
+  "skills": [
+    {
+      "name": "Go",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Python",
+      "category": "TECHNICAL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 7.5,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Apache Kafka",
+      "category": "TOOL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Kubernetes",
+      "category": "CLOUD_DEVOPS",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.5,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "PostgreSQL",
+      "category": "DATABASE",
+      "proficiency": "EXPERT",
+      "years_of_experience": 7.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "gRPC",
+      "category": "FRAMEWORK",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "CloudScale Inc.",
+      "designation": "Staff Distributed Systems Engineer",
+      "standardized_title": "Staff Backend Engineer",
+      "seniority": "LEAD",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "San Francisco",
+        "state_or_province": "CA",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-03",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": 42,
+      "description": "Core platform infrastructure engineering.",
+      "responsibilities": [
+        "Architect event-driven microservices architecture.",
+        "Lead technical design reviews across 3 engineering squads."
+      ],
+      "achievements": [
+        "Architected an event-driven payment reconciliation service in Go processing $40M daily volume.",
+        "Reduced API p99 latency from 320ms to 45ms by introducing Redis caching clusters."
+      ],
+      "technologies_used": [
+        "Go",
+        "Kafka",
+        "PostgreSQL",
+        "AWS",
+        "Kubernetes",
+        "Redis"
+      ]
+    },
+    {
+      "company_name": "DataStream Labs",
+      "designation": "Backend Software Engineer",
+      "standardized_title": "Backend Software Engineer",
+      "seniority": "MID",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "San Jose",
+        "state_or_province": "CA",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2017-07",
+      "end_date": "2021-02",
+      "is_current": false,
+      "duration_in_months": 44,
+      "description": "",
+      "responsibilities": [
+        "Developed asynchronous ingestion pipelines in FastAPI.",
+        "Maintained relational database clusters and query optimizations."
+      ],
+      "achievements": [
+        "Designed zero-downtime schema migration strategies for PostgreSQL tables with 200M+ records."
+      ],
+      "technologies_used": [
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "Docker"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "University of California, Berkeley",
+      "degree": "Bachelor of Science in Computer Science",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Computer Science",
+      "start_year": 2013,
+      "end_year": 2017,
+      "is_current": false,
+      "grade_or_gpa": "3.8/4.0"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "AWS Certified Solutions Architect - Associate",
+      "issuing_organization": "Amazon Web Services",
+      "issue_date": "2022-04",
+      "expiry_date": null,
+      "credential_id": "AWS-SAA-839201",
+      "verification_url": null
+    }
+  ],
+  "projects": [
+    {
+      "title": "Distributed Raft Key-Value Store",
+      "role": "Creator / Maintainer",
+      "description": "Fault-tolerant, linearizable KV store implementing Raft consensus in Go.",
+      "technologies": [
+        "Go",
+        "Raft",
+        "gRPC"
+      ],
+      "outcomes": [
+        "Achieved 12,000 writes/sec with automated leader election."
+      ],
+      "url": null
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "Mandarin",
+      "proficiency": "CONVERSATIONAL"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_01_backend.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.98
+  }
+}

@@ -1,0 +1,29 @@
+DAVID OKAFOR
+Email: david.okafor.sec@example.com | Phone: +1-202-555-0133 | Location: Washington, DC
+LinkedIn: linkedin.com/in/david-okafor-sec
+
+SUMMARY
+Senior Cybersecurity & SOC Incident Response Lead with 6+ years protecting critical financial and defense digital assets. Certified Information Systems Security Professional (CISSP).
+
+SKILLS
+- Security Operations: SIEM (Splunk, Sentinel), EDR (CrowdStrike), Wireshark, Zeek
+- Threat Intel & Frameworks: MITRE ATT&CK, NIST CSF, ISO 27001, SOC 2 Type II
+- Vulnerability Mgmt: Tenable Nessus, Qualys, Burp Suite, Python Security Scripting
+
+EXPERIENCE
+Senior Information Security Analyst | Apex Defense Systems | Washington, DC
+July 2020 - Present
+- Led tier-3 incident response investigations mitigating 140+ targeted phishing and ransomware campaigns.
+- Developed automated threat hunting playbooks in Splunk Phantom reducing mean-time-to-remediate (MTTR) by 45%.
+
+SOC Analyst | Capital Guard Financial | McLean, VA
+June 2018 - June 2020
+- Monitored real-time intrusion alerts and triaged network telemetry across 15,000 corporate endpoints.
+
+EDUCATION
+Master of Science in Cybersecurity | Johns Hopkins University (2018 - 2020)
+Bachelor of Science in Information Technology | George Mason University (2014 - 2018)
+
+CERTIFICATIONS
+- Certified Information Systems Security Professional (CISSP) | (ISC)², 2022
+- CompTIA Security+ (CompTIA, 2018)

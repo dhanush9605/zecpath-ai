@@ -1,0 +1,92 @@
+{
+  "job_id": "job-001-backend-dist",
+  "title": "Senior Backend Distributed Systems Engineer",
+  "company_name": "CloudScale Infrastructure Inc.",
+  "department": "Core Engineering",
+  "role_type": "TECHNICAL",
+  "seniority_level": "SENIOR",
+  "employment_type": "FULL_TIME",
+  "workplace_type": "HYBRID",
+  "location": {
+    "city": "San Francisco",
+    "state_or_province": "CA",
+    "country": "USA",
+    "is_remote": false
+  },
+  "salary_range": {
+    "currency": "USD",
+    "min_amount": 165000.0,
+    "max_amount": 210000.0,
+    "pay_period": "ANNUAL"
+  },
+  "summary": "CloudScale is seeking a Senior Backend Distributed Systems Engineer to scale high-throughput core financial and telemetry microservices.",
+  "responsibilities": [
+    "Architect, build, and deploy low-latency, event-driven microservices in Go and Python.",
+    "Maintain mission-critical PostgreSQL and Kafka clustering with zero downtime guarantees.",
+    "Mentor mid-level and junior engineers on distributed consensus, testing, and production telemetry."
+  ],
+  "requirements": {
+    "minimum_experience_years": 5.0,
+    "required_skills": [
+      {
+        "name": "Go",
+        "category": "TECHNICAL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Distributed Systems",
+        "category": "TECHNICAL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "PostgreSQL",
+        "category": "DATABASE",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Apache Kafka",
+        "category": "TOOL",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Kubernetes",
+        "category": "CLOUD_DEVOPS",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "gRPC",
+        "category": "FRAMEWORK",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "minimum_education_level": "BACHELOR",
+    "required_certifications": []
+  },
+  "benefits": [
+    "Comprehensive health, dental, vision",
+    "401(k) matching",
+    "Equity grant"
+  ],
+  "created_at": "2026-10-01",
+  "is_active": true
+}

@@ -1,0 +1,125 @@
+{
+  "candidate_id": "cand-009-finance",
+  "contact_info": {
+    "full_name": "Vikram Patel",
+    "email": "vikram.patel.cfa@example.com",
+    "phone": "+1-704-555-0199",
+    "location": {
+      "city": "Charlotte",
+      "state_or_province": "NC",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/vikram-patel-cfa",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Senior Financial Analyst (FP&A & Valuation, CFA)",
+  "professional_summary": "Senior Financial Analyst (FP&A) and CFA Charterholder with 5+ years building dynamic 3-statement financial models, discounted cash flow (DCF) valuations, and corporate budget forecasting for multi-entity enterprises.",
+  "target_role": "Lead FP&A Manager",
+  "domain": "Financial Analysis & Modeling",
+  "total_experience_years": 5.2,
+  "skills": [
+    {
+      "name": "Financial Modeling & DCF",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Advanced Excel & VBA",
+      "category": "TOOL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "US GAAP & ASC 606",
+      "category": "DOMAIN",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Power BI & SQL",
+      "category": "TECHNICAL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "Pinnacle Financial Holdings",
+      "designation": "Senior FP&A Analyst",
+      "standardized_title": "Senior Financial Analyst",
+      "seniority": "SENIOR",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Charlotte",
+        "state_or_province": "NC",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-07",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Budgeted $320M in operating revenue with 98.4% variance accuracy."
+      ],
+      "technologies_used": [
+        "Excel",
+        "Power BI",
+        "NetSuite",
+        "SQL"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "Vanderbilt University",
+      "degree": "Master of Science in Finance",
+      "degree_level": "MASTER",
+      "field_of_study": "Finance",
+      "start_year": 2018,
+      "end_year": 2019,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Chartered Financial Analyst (CFA)",
+      "issuing_organization": "CFA Institute",
+      "issue_date": "2022-09",
+      "expiry_date": null,
+      "credential_id": "CFA-99120",
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "Hindi",
+      "proficiency": "FLUENT"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_09_finance.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.98
+  }
+}

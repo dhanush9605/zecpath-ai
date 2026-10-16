@@ -1,0 +1,125 @@
+{
+  "candidate_id": "cand-007-uiux",
+  "contact_info": {
+    "full_name": "Mateo Silva",
+    "email": "mateo.silva.ux@example.com",
+    "phone": "+1-305-555-0162",
+    "location": {
+      "city": "Miami",
+      "state_or_province": "FL",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/mateo-silva-ux",
+    "github_url": null,
+    "portfolio_url": "https://mateosilva.design"
+  },
+  "headline": "Principal Product Designer & UX Design Systems Architect",
+  "professional_summary": "Principal Product Designer & UX Architect with 8+ years crafting intuitive consumer and enterprise experiences. Expert in Figma component tokens, accessibility compliance, and quantitative user testing.",
+  "target_role": "Director of Product Design",
+  "domain": "UI/UX Product Design",
+  "total_experience_years": 8.5,
+  "skills": [
+    {
+      "name": "Figma",
+      "category": "TOOL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 8.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Design Systems",
+      "category": "DOMAIN",
+      "proficiency": "EXPERT",
+      "years_of_experience": 7.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "User Research",
+      "category": "METHODOLOGY",
+      "proficiency": "EXPERT",
+      "years_of_experience": 8.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Interaction Design",
+      "category": "DOMAIN",
+      "proficiency": "EXPERT",
+      "years_of_experience": 8.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "NextEra Digital",
+      "designation": "Principal Product Designer",
+      "standardized_title": "Principal Product Designer",
+      "seniority": "PRINCIPAL",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Miami",
+        "state_or_province": "FL",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-02",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Llifted 30-day user retention from 28% to 47% via redesigned onboarding."
+      ],
+      "technologies_used": [
+        "Figma",
+        "Design Tokens",
+        "UserTesting.com",
+        "Miro"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "Savannah College of Art and Design (SCAD)",
+      "degree": "Bachelor of Fine Arts in Interaction Design",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Interaction Design",
+      "start_year": 2012,
+      "end_year": 2016,
+      "is_current": false,
+      "grade_or_gpa": "Summa Cum Laude"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Nielsen Norman Group UX Master Certified",
+      "issuing_organization": "Nielsen Norman Group",
+      "issue_date": "2021-11",
+      "expiry_date": null,
+      "credential_id": "NNG-UXM-9021",
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "Spanish",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_07_ui_ux.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.99
+  }
+}

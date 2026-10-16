@@ -1,0 +1,76 @@
+{
+  "job_id": "job-003-senior-talent",
+  "title": "Senior Talent Acquisition Partner",
+  "company_name": "HyperScale AI",
+  "department": "People & Talent Operations",
+  "role_type": "NON_TECHNICAL",
+  "seniority_level": "SENIOR",
+  "employment_type": "FULL_TIME",
+  "workplace_type": "REMOTE",
+  "location": {
+    "city": "Atlanta",
+    "state_or_province": "GA",
+    "country": "USA",
+    "is_remote": true
+  },
+  "salary_range": {
+    "currency": "USD",
+    "min_amount": 110000.0,
+    "max_amount": 140000.0,
+    "pay_period": "ANNUAL"
+  },
+  "summary": "Partnering with executive leadership to run full-lifecycle hiring across engineering, product, and business units.",
+  "responsibilities": [
+    "Partner directly with VP of Engineering and Department Heads to define headcount requirements.",
+    "Drive active sourcing, boolean search, and outreach campaigns to attract top passive talent.",
+    "Manage candidate offer generation, closing negotiations, and onboarding handoffs."
+  ],
+  "requirements": {
+    "minimum_experience_years": 5.0,
+    "required_skills": [
+      {
+        "name": "Technical Recruiting",
+        "category": "DOMAIN",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Greenhouse ATS",
+        "category": "TOOL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Candidate Sourcing & Outreach",
+        "category": "DOMAIN",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "DEI Strategy",
+        "category": "DOMAIN",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "minimum_education_level": "BACHELOR",
+    "required_certifications": []
+  },
+  "benefits": [
+    "100% remote flexibility",
+    "Annual wellness stipend",
+    "Performance bonus"
+  ],
+  "created_at": "2026-10-08",
+  "is_active": true
+}

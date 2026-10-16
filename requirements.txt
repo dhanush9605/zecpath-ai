@@ -8,3 +8,7 @@ pytest>=8.0.0
 
 # Fast Python linter and code formatter
 ruff>=0.4.0
+
+# Day 4: Data modeling and schema validation
+pydantic>=2.7.0
+jsonschema>=4.20.0

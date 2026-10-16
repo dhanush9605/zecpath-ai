@@ -1,0 +1,113 @@
+{
+  "candidate_id": "cand-003-aiml",
+  "contact_info": {
+    "full_name": "Dr. Marcus Vance",
+    "email": "marcus.vance.ai@example.com",
+    "phone": "+1-617-555-0188",
+    "location": {
+      "city": "Boston",
+      "state_or_province": "MA",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/marcus-vance-ai",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Senior AI/ML Research Scientist (LLMs & RAG)",
+  "professional_summary": "Senior AI/ML Research Scientist with a Ph.D. in Computer Science and 5+ years building deep learning systems, Large Language Model (LLM) fine-tuning pipelines, and retrieval-augmented generation (RAG) architectures.",
+  "target_role": "Staff Machine Learning Engineer",
+  "domain": "Data Science & Machine Learning",
+  "total_experience_years": 5.3,
+  "skills": [
+    {
+      "name": "PyTorch",
+      "category": "FRAMEWORK",
+      "proficiency": "EXPERT",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Large Language Models (LLMs)",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 3.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Vector Databases",
+      "category": "DATABASE",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 3.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "MLOps",
+      "category": "CLOUD_DEVOPS",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "DeepThought Systems",
+      "designation": "Senior AI Research Scientist",
+      "standardized_title": "Senior Machine Learning Scientist",
+      "seniority": "SENIOR",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Boston",
+        "state_or_province": "MA",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-09",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Boosted RAG response relevance by 34% deploying hybrid dense-sparse vector indexing."
+      ],
+      "technologies_used": [
+        "PyTorch",
+        "Hugging Face",
+        "Pinecone",
+        "Triton",
+        "Kubeflow"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "Massachusetts Institute of Technology",
+      "degree": "Ph.D. in Computer Science (Machine Learning)",
+      "degree_level": "DOCTORATE",
+      "field_of_study": "Computer Science & Artificial Intelligence",
+      "start_year": 2015,
+      "end_year": 2019,
+      "is_current": false,
+      "grade_or_gpa": null
+    }
+  ],
+  "certifications": [],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_03_ai_ml.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.97
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "job_id": "job-002-staff-ml",
+  "title": "Staff Machine Learning & Generative AI Engineer",
+  "company_name": "DeepThought Systems",
+  "department": "AI Research & Engineering",
+  "role_type": "TECHNICAL",
+  "seniority_level": "LEAD",
+  "employment_type": "FULL_TIME",
+  "workplace_type": "HYBRID",
+  "location": {
+    "city": "Boston",
+    "state_or_province": "MA",
+    "country": "USA",
+    "is_remote": true
+  },
+  "salary_range": {
+    "currency": "USD",
+    "min_amount": 190000.0,
+    "max_amount": 240000.0,
+    "pay_period": "ANNUAL"
+  },
+  "summary": "Leading enterprise foundation model fine-tuning, RAG indexing, and low-latency inference pipelines.",
+  "responsibilities": [
+    "Lead architecture and implementation of enterprise LLM fine-tuning pipelines.",
+    "Integrate vector databases and semantic caching into production APIs.",
+    "Establish automated evaluation benchmarks and safety guardrails."
+  ],
+  "requirements": {
+    "minimum_experience_years": 6.0,
+    "required_skills": [
+      {
+        "name": "PyTorch",
+        "category": "FRAMEWORK",
+        "proficiency": "EXPERT",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Large Language Models (LLMs)",
+        "category": "TECHNICAL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Vector Databases",
+        "category": "DATABASE",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Triton Inference Server",
+        "category": "TOOL",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Kubeflow",
+        "category": "CLOUD_DEVOPS",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "minimum_education_level": "MASTER",
+    "required_certifications": []
+  },
+  "benefits": [
+    "Health, dental, and life coverage",
+    "Home office stipend",
+    "Generous equity grant"
+  ],
+  "created_at": "2026-10-05",
+  "is_active": true
+}

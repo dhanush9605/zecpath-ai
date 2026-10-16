@@ -1,0 +1,125 @@
+{
+  "candidate_id": "cand-006-prodmgr",
+  "contact_info": {
+    "full_name": "Rachel Kim",
+    "email": "rachel.kim.pm@example.com",
+    "phone": "+1-212-555-0155",
+    "location": {
+      "city": "New York",
+      "state_or_province": "NY",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/rachel-kim-pm",
+    "github_url": null,
+    "portfolio_url": null
+  },
+  "headline": "Senior Technical Product Manager (B2B SaaS & FinTech)",
+  "professional_summary": "Senior Technical Product Manager with 7+ years scaling B2B SaaS and fintech platforms. Track record of driving $18M ARR growth through user discovery, data-informed roadmaps, and agile execution.",
+  "target_role": "Group Product Manager",
+  "domain": "Product Management",
+  "total_experience_years": 7.3,
+  "skills": [
+    {
+      "name": "Product Strategy",
+      "category": "DOMAIN",
+      "proficiency": "EXPERT",
+      "years_of_experience": 7.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Agile / Scrum",
+      "category": "METHODOLOGY",
+      "proficiency": "EXPERT",
+      "years_of_experience": 7.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "SQL & Analytics",
+      "category": "TECHNICAL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Amplitude / Mixpanel",
+      "category": "TOOL",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 5.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "PayFlow Commerce",
+      "designation": "Senior Product Manager",
+      "standardized_title": "Senior Product Manager",
+      "seniority": "SENIOR",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "New York",
+        "state_or_province": "NY",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2021-08",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": null,
+      "description": "",
+      "responsibilities": [],
+      "achievements": [
+        "Increased checkout conversion rates by 19% across 2.4M monthly checkouts."
+      ],
+      "technologies_used": [
+        "Jira",
+        "Mixpanel",
+        "SQL",
+        "Figma"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "Columbia University",
+      "degree": "Bachelor of Science in Industrial Engineering & Economics",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Industrial Engineering",
+      "start_year": 2013,
+      "end_year": 2017,
+      "is_current": false,
+      "grade_or_gpa": "Magna Cum Laude"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Certified Scrum Product Owner (CSPO)",
+      "issuing_organization": "Scrum Alliance",
+      "issue_date": "2020-05",
+      "expiry_date": null,
+      "credential_id": null,
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    },
+    {
+      "language": "Korean",
+      "proficiency": "FLUENT"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_06_product_manager.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.99
+  }
+}

@@ -1,0 +1,20 @@
+JOB REQUISITION: Staff Machine Learning & Generative AI Engineer
+Company: DeepThought Systems
+Location: Boston, MA (Hybrid or Remote)
+Role Type: Technical | Employment Type: Full-time
+
+ABOUT THE ROLE:
+DeepThought Systems is hiring a Staff ML Engineer to build production foundation model workflows, agentic orchestration, and advanced RAG architectures.
+
+RESPONSIBILITIES:
+- Lead the architecture and implementation of enterprise LLM fine-tuning and inference pipelines.
+- Integrate vector databases, semantic caching, and guardrail validation into real-time APIs.
+- Collaborate with product managers and researchers to turn cutting-edge model research into reliable products.
+
+REQUIREMENTS:
+- Minimum 6+ years of machine learning engineering experience in production.
+- Deep expertise in PyTorch, Hugging Face, vector retrieval (Milvus/Pinecone), and MLOps pipelines.
+- Master's or Ph.D. in Computer Science, AI, or related quantitative field preferred.
+
+COMPENSATION:
+- $190,000 - $240,000 base annual salary + competitive equity

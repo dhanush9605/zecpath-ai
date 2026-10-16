@@ -1,0 +1,86 @@
+{
+  "job_id": "job-004-lead-fpa",
+  "title": "Lead Financial Planning & Analysis (FP&A) Analyst",
+  "company_name": "Pinnacle Financial Holdings",
+  "department": "Corporate Finance",
+  "role_type": "NON_TECHNICAL",
+  "seniority_level": "LEAD",
+  "employment_type": "FULL_TIME",
+  "workplace_type": "HYBRID",
+  "location": {
+    "city": "Charlotte",
+    "state_or_province": "NC",
+    "country": "USA",
+    "is_remote": false
+  },
+  "salary_range": {
+    "currency": "USD",
+    "min_amount": 135000.0,
+    "max_amount": 165000.0,
+    "pay_period": "ANNUAL"
+  },
+  "summary": "Leading corporate budgeting, 3-statement modeling, and SaaS unit economics evaluation for executive stakeholders.",
+  "responsibilities": [
+    "Build and maintain multi-year 3-statement integrated financial models.",
+    "Lead quarterly business reviews (QBRs) and deliver board deck presentations.",
+    "Analyze customer cohort retention and price elasticity with sales operations."
+  ],
+  "requirements": {
+    "minimum_experience_years": 5.0,
+    "required_skills": [
+      {
+        "name": "Financial Modeling",
+        "category": "TECHNICAL",
+        "proficiency": "EXPERT",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Corporate Budgeting & FP&A",
+        "category": "DOMAIN",
+        "proficiency": "EXPERT",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "Advanced Excel",
+        "category": "TOOL",
+        "proficiency": "EXPERT",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "preferred_skills": [
+      {
+        "name": "Power BI",
+        "category": "TOOL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
+      {
+        "name": "SQL",
+        "category": "TECHNICAL",
+        "proficiency": "INTERMEDIATE",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      }
+    ],
+    "minimum_education_level": "BACHELOR",
+    "required_certifications": [
+      "CFA or CPA preferred"
+    ]
+  },
+  "benefits": [
+    "401(k) with 6% company match",
+    "Comprehensive health insurance",
+    "Tuition reimbursement"
+  ],
+  "created_at": "2026-10-10",
+  "is_active": true
+}

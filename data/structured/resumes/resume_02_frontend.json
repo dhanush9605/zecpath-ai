@@ -1,0 +1,125 @@
+{
+  "candidate_id": "cand-002-frontend",
+  "contact_info": {
+    "full_name": "Priya Sharma",
+    "email": "priya.sharma.tech@example.com",
+    "phone": "+1-206-555-0144",
+    "location": {
+      "city": "Seattle",
+      "state_or_province": "WA",
+      "country": "USA",
+      "is_remote": false
+    },
+    "linkedin_url": "https://linkedin.com/in/priyasharma-web",
+    "github_url": null,
+    "portfolio_url": "https://priyasharma.dev"
+  },
+  "headline": "Lead Frontend & UI Platform Engineer",
+  "professional_summary": "Lead Frontend Engineer with 6+ years driving design systems, accessible UI/UX, and high-performance Web applications using React, TypeScript, Next.js, and GraphQL.",
+  "target_role": "Lead Frontend Engineer",
+  "domain": "Frontend / Full-Stack Engineering",
+  "total_experience_years": 6.2,
+  "skills": [
+    {
+      "name": "React",
+      "category": "FRAMEWORK",
+      "proficiency": "EXPERT",
+      "years_of_experience": 6.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "TypeScript",
+      "category": "TECHNICAL",
+      "proficiency": "EXPERT",
+      "years_of_experience": 5.5,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "Next.js",
+      "category": "FRAMEWORK",
+      "proficiency": "ADVANCED",
+      "years_of_experience": 4.0,
+      "last_used_year": 2024,
+      "verified": false
+    },
+    {
+      "name": "GraphQL",
+      "category": "TECHNICAL",
+      "proficiency": "INTERMEDIATE",
+      "years_of_experience": 3.0,
+      "last_used_year": 2024,
+      "verified": false
+    }
+  ],
+  "experience": [
+    {
+      "company_name": "PixelCraft Media",
+      "designation": "Lead Frontend Engineer",
+      "standardized_title": "Lead Frontend Engineer",
+      "seniority": "LEAD",
+      "employment_type": "FULL_TIME",
+      "location": {
+        "city": "Seattle",
+        "state_or_province": "WA",
+        "country": "USA",
+        "is_remote": false
+      },
+      "start_date": "2022-01",
+      "end_date": null,
+      "is_current": true,
+      "duration_in_months": 33,
+      "description": "",
+      "responsibilities": [
+        "Oversee UI engineering standards",
+        "Maintain component design system"
+      ],
+      "achievements": [
+        "Improved Largest Contentful Paint (LCP) by 65% across primary web portals."
+      ],
+      "technologies_used": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Storybook"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution_name": "University of Washington",
+      "degree": "Bachelor of Engineering in Information Technology",
+      "degree_level": "BACHELOR",
+      "field_of_study": "Information Technology",
+      "start_year": 2014,
+      "end_year": 2018,
+      "is_current": false,
+      "grade_or_gpa": "First Class Honors"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "Meta Certified Front-End Developer",
+      "issuing_organization": "Meta",
+      "issue_date": "2021-08",
+      "expiry_date": null,
+      "credential_id": null,
+      "verification_url": null
+    }
+  ],
+  "projects": [],
+  "languages": [
+    {
+      "language": "English",
+      "proficiency": "NATIVE"
+    }
+  ],
+  "metadata": {
+    "source_file_name": "resume_02_frontend.txt",
+    "parser_version": "0.1.0",
+    "extracted_at": "2026-10-15T10:00:00Z",
+    "confidence_score": 0.99
+  }
+}

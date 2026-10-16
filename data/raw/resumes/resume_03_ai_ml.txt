@@ -1,0 +1,25 @@
+DR. MARCUS VANCE
+Email: marcus.vance.ai@example.com | Phone: +1-617-555-0188 | Location: Boston, MA
+LinkedIn: linkedin.com/in/marcus-vance-ai | Google Scholar: scholar.google.com/citations?user=mvance
+
+SUMMARY
+Senior AI/ML Research Scientist with a Ph.D. in Computer Science and 5+ years building deep learning systems, Large Language Model (LLM) fine-tuning pipelines, and retrieval-augmented generation (RAG) architectures.
+
+SKILLS
+- Machine Learning & DL: PyTorch, TensorFlow, Hugging Face, Scikit-learn, LangChain, LlamaIndex
+- MLOps & Vector DBs: MLflow, Kubeflow, Pinecone, Milvus, Triton Inference Server
+- Mathematics: Bayesian Inference, Optimization, Linear Algebra, Statistical Hypothesis Testing
+
+EXPERIENCE
+Senior AI Research Scientist | DeepThought Systems | Boston, MA
+September 2021 - Present
+- Spearheaded fine-tuning of domain-specific 13B LLMs for enterprise contract synthesis using LoRA and QLoRA.
+- Built low-latency RAG pipeline with hybrid search (dense embeddings + BM25), boosting response relevance by 34%.
+
+Machine Learning Engineer | BioAnalytics AI | Cambridge, MA
+June 2019 - August 2021
+- Trained convolutional neural networks for biomolecular image classification with 94.2% AUC.
+
+EDUCATION
+Ph.D. in Computer Science (Machine Learning) | Massachusetts Institute of Technology (2015 - 2019)
+Bachelor of Science in Mathematics & CS | Carnegie Mellon University (2011 - 2015)
