@@ -12,3 +12,7 @@ ruff>=0.4.0
 # Day 4: Data modeling and schema validation
 pydantic>=2.7.0
 jsonschema>=4.20.0
+
+# Day 5: Document readers and text extraction
+pypdf>=4.0.0
+python-docx>=1.1.0

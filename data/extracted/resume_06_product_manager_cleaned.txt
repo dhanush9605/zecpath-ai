@@ -1,0 +1,34 @@
+RACHEL KIM
+Email: rachel.kim.pm@example.com | Phone: +1-212-555-0155 | Location: New York, NY
+LinkedIn: linkedin.com/in/rachel-kim-pm
+
+PROFESSIONAL SUMMARY
+--------------------
+Senior Technical Product Manager with 7+ years scaling B2B SaaS and fintech platforms. Track record of driving $18M ARR growth through user discovery, data-informed roadmaps, and agile execution.
+
+TECHNICAL SKILLS
+----------------
+• Product Strategy: Roadmap Planning, PRD Authoring, OKRs, User Journey Mapping
+• Methodologies: Agile Scrum, Kanban, Design Thinking, Continuous Discovery
+• Analytics & Tools: Mixpanel, Amplitude, Jira, SQL, Tableau, Figma
+
+WORK EXPERIENCE
+---------------
+Senior Product Manager | PayFlow Commerce | New York, NY
+August 2021 - Present
+• Owned end-to-end checkout product roadmap, boosting conversion rates by 19% across 2.4M monthly checkouts.
+• Partnered with 12 engineers and 2 UX designers using two-week sprints and clear acceptance criteria.
+
+Product Manager | Omnia Analytics | New York, NY
+June 2017 - July 2021
+• Launched self-service data exploration tool that scaled from 0 to $6M ARR within 18 months.
+
+EDUCATION
+---------
+Bachelor of Science in Industrial Engineering & Economics | Columbia University (2013 - 2017)
+Magna Cum Laude
+
+CERTIFICATIONS
+--------------
+• Certified Scrum Product Owner (CSPO) | Scrum Alliance, 2020
+• Pragmatic Institute Certified (PMC-III), 2021

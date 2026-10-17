@@ -1,5 +1,5 @@
 {
-  "job_id": "job-004-lead-fpa",
+  "job_id": "job-04-financial-analyst",
   "title": "Lead Financial Planning & Analysis (FP&A) Analyst",
   "company_name": "Pinnacle Financial Holdings",
   "department": "Corporate Finance",
@@ -9,7 +9,7 @@
   "workplace_type": "HYBRID",
   "location": {
     "city": "Charlotte",
-    "state_or_province": "NC",
+    "state_or_province": null,
     "country": "USA",
     "is_remote": false
   },
@@ -19,15 +19,23 @@
     "max_amount": 165000.0,
     "pay_period": "ANNUAL"
   },
-  "summary": "Leading corporate budgeting, 3-statement modeling, and SaaS unit economics evaluation for executive stakeholders.",
+  "summary": "Pinnacle Financial is looking for a Lead FP&A Analyst to direct corporate budgeting, financial modeling, and strategic revenue variance analysis.",
   "responsibilities": [
     "Build and maintain multi-year 3-statement integrated financial models.",
-    "Lead quarterly business reviews (QBRs) and deliver board deck presentations.",
-    "Analyze customer cohort retention and price elasticity with sales operations."
+    "Lead quarterly business reviews (QBRs) and deliver board deck presentations on departmental spending.",
+    "Partner with product and sales operations on price elasticity and customer unit economics."
   ],
   "requirements": {
     "minimum_experience_years": 5.0,
     "required_skills": [
+      {
+        "name": "SQL",
+        "category": "TECHNICAL",
+        "proficiency": "ADVANCED",
+        "years_of_experience": null,
+        "last_used_year": null,
+        "verified": false
+      },
       {
         "name": "Financial Modeling",
         "category": "TECHNICAL",
@@ -51,9 +59,7 @@
         "years_of_experience": null,
         "last_used_year": null,
         "verified": false
-      }
-    ],
-    "preferred_skills": [
+      },
       {
         "name": "Power BI",
         "category": "TOOL",
@@ -61,26 +67,16 @@
         "years_of_experience": null,
         "last_used_year": null,
         "verified": false
-      },
-      {
-        "name": "SQL",
-        "category": "TECHNICAL",
-        "proficiency": "INTERMEDIATE",
-        "years_of_experience": null,
-        "last_used_year": null,
-        "verified": false
       }
     ],
+    "preferred_skills": [],
     "minimum_education_level": "BACHELOR",
     "required_certifications": [
-      "CFA or CPA preferred"
+      "CFA",
+      "CPA"
     ]
   },
-  "benefits": [
-    "401(k) with 6% company match",
-    "Comprehensive health insurance",
-    "Tuition reimbursement"
-  ],
-  "created_at": "2026-10-10",
+  "benefits": [],
+  "created_at": "2026-10-17",
   "is_active": true
 }

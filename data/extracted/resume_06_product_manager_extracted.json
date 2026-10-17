@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_06_product_manager.txt",
+  "file_type": "TXT",
+  "raw_text": "RACHEL KIM\nEmail: rachel.kim.pm@example.com | Phone: +1-212-555-0155 | Location: New York, NY\nLinkedIn: linkedin.com/in/rachel-kim-pm\n\nSUMMARY\nSenior Technical Product Manager with 7+ years scaling B2B SaaS and fintech platforms. Track record of driving $18M ARR growth through user discovery, data-informed roadmaps, and agile execution.\n\nSKILLS\n- Product Strategy: Roadmap Planning, PRD Authoring, OKRs, User Journey Mapping\n- Methodologies: Agile Scrum, Kanban, Design Thinking, Continuous Discovery\n- Analytics & Tools: Mixpanel, Amplitude, Jira, SQL, Tableau, Figma\n\nEXPERIENCE\nSenior Product Manager | PayFlow Commerce | New York, NY\nAugust 2021 - Present\n- Owned end-to-end checkout product roadmap, boosting conversion rates by 19% across 2.4M monthly checkouts.\n- Partnered with 12 engineers and 2 UX designers using two-week sprints and clear acceptance criteria.\n\nProduct Manager | Omnia Analytics | New York, NY\nJune 2017 - July 2021\n- Launched self-service data exploration tool that scaled from 0 to $6M ARR within 18 months.\n\nEDUCATION\nBachelor of Science in Industrial Engineering & Economics | Columbia University (2013 - 2017)\nMagna Cum Laude\n\nCERTIFICATIONS\n- Certified Scrum Product Owner (CSPO) | Scrum Alliance, 2020\n- Pragmatic Institute Certified (PMC-III), 2021",
+  "cleaned_text": "RACHEL KIM\nEmail: rachel.kim.pm@example.com | Phone: +1-212-555-0155 | Location: New York, NY\nLinkedIn: linkedin.com/in/rachel-kim-pm\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior Technical Product Manager with 7+ years scaling B2B SaaS and fintech platforms. Track record of driving $18M ARR growth through user discovery, data-informed roadmaps, and agile execution.\n\nTECHNICAL SKILLS\n----------------\n• Product Strategy: Roadmap Planning, PRD Authoring, OKRs, User Journey Mapping\n• Methodologies: Agile Scrum, Kanban, Design Thinking, Continuous Discovery\n• Analytics & Tools: Mixpanel, Amplitude, Jira, SQL, Tableau, Figma\n\nWORK EXPERIENCE\n---------------\nSenior Product Manager | PayFlow Commerce | New York, NY\nAugust 2021 - Present\n• Owned end-to-end checkout product roadmap, boosting conversion rates by 19% across 2.4M monthly checkouts.\n• Partnered with 12 engineers and 2 UX designers using two-week sprints and clear acceptance criteria.\n\nProduct Manager | Omnia Analytics | New York, NY\nJune 2017 - July 2021\n• Launched self-service data exploration tool that scaled from 0 to $6M ARR within 18 months.\n\nEDUCATION\n---------\nBachelor of Science in Industrial Engineering & Economics | Columbia University (2013 - 2017)\nMagna Cum Laude\n\nCERTIFICATIONS\n--------------\n• Certified Scrum Product Owner (CSPO) | Scrum Alliance, 2020\n• Pragmatic Institute Certified (PMC-III), 2021",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 193,
+  "character_count": 1393,
+  "lines_count": 34,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_06_product_manager.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1286,
+    "cleaned_length": 1393,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 193,
+    "lines_count": 34
+  },
+  "extracted_at": "2026-10-16T10:33:50.169523+00:00"
+}

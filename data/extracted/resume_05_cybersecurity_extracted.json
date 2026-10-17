@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_05_cybersecurity.txt",
+  "file_type": "TXT",
+  "raw_text": "DAVID OKAFOR\nEmail: david.okafor.sec@example.com | Phone: +1-202-555-0133 | Location: Washington, DC\nLinkedIn: linkedin.com/in/david-okafor-sec\n\nSUMMARY\nSenior Cybersecurity & SOC Incident Response Lead with 6+ years protecting critical financial and defense digital assets. Certified Information Systems Security Professional (CISSP).\n\nSKILLS\n- Security Operations: SIEM (Splunk, Sentinel), EDR (CrowdStrike), Wireshark, Zeek\n- Threat Intel & Frameworks: MITRE ATT&CK, NIST CSF, ISO 27001, SOC 2 Type II\n- Vulnerability Mgmt: Tenable Nessus, Qualys, Burp Suite, Python Security Scripting\n\nEXPERIENCE\nSenior Information Security Analyst | Apex Defense Systems | Washington, DC\nJuly 2020 - Present\n- Led tier-3 incident response investigations mitigating 140+ targeted phishing and ransomware campaigns.\n- Developed automated threat hunting playbooks in Splunk Phantom reducing mean-time-to-remediate (MTTR) by 45%.\n\nSOC Analyst | Capital Guard Financial | McLean, VA\nJune 2018 - June 2020\n- Monitored real-time intrusion alerts and triaged network telemetry across 15,000 corporate endpoints.\n\nEDUCATION\nMaster of Science in Cybersecurity | Johns Hopkins University (2018 - 2020)\nBachelor of Science in Information Technology | George Mason University (2014 - 2018)\n\nCERTIFICATIONS\n- Certified Information Systems Security Professional (CISSP) | (ISC)², 2022\n- CompTIA Security+ (CompTIA, 2018)",
+  "cleaned_text": "DAVID OKAFOR\nEmail: david.okafor.sec@example.com | Phone: +1-202-555-0133 | Location: Washington, DC\nLinkedIn: linkedin.com/in/david-okafor-sec\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior Cybersecurity & SOC Incident Response Lead with 6+ years protecting critical financial and defense digital assets. Certified Information Systems Security Professional (CISSP).\n\nTECHNICAL SKILLS\n----------------\n• Security Operations: SIEM (Splunk, Sentinel), EDR (CrowdStrike), Wireshark, Zeek\n• Threat Intel & Frameworks: MITRE ATT&CK, NIST CSF, ISO 27001, SOC 2 Type II\n• Vulnerability Mgmt: Tenable Nessus, Qualys, Burp Suite, Python Security Scripting\n\nWORK EXPERIENCE\n---------------\nSenior Information Security Analyst | Apex Defense Systems | Washington, DC\nJuly 2020 - Present\n• Led tier-3 incident response investigations mitigating 140+ targeted phishing and ransomware campaigns.\n• Developed automated threat hunting playbooks in Splunk Phantom reducing mean-time-to-remediate (MTTR) by 45%.\n\nSOC Analyst | Capital Guard Financial | McLean, VA\nJune 2018 - June 2020\n• Monitored real-time intrusion alerts and triaged network telemetry across 15,000 corporate endpoints.\n\nEDUCATION\n---------\nMaster of Science in Cybersecurity | Johns Hopkins University (2018 - 2020)\nBachelor of Science in Information Technology | George Mason University (2014 - 2018)\n\nCERTIFICATIONS\n--------------\n• Certified Information Systems Security Professional (CISSP) | (ISC)2, 2022\n• CompTIA Security+ (CompTIA, 2018)",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 194,
+  "character_count": 1501,
+  "lines_count": 34,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_05_cybersecurity.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1394,
+    "cleaned_length": 1501,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 194,
+    "lines_count": 34
+  },
+  "extracted_at": "2026-10-16T10:33:50.165326+00:00"
+}

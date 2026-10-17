@@ -40,6 +40,8 @@ class ZecpathViewerHandler(http.server.SimpleHTTPRequestHandler):
             self._serve_full_dataset()
         elif self.path == "/api/schemas":
             self._serve_schemas()
+        elif self.path == "/api/extracted":
+            self._serve_extracted_data()
         else:
             super().do_GET()
 
@@ -179,6 +181,24 @@ class ZecpathViewerHandler(http.server.SimpleHTTPRequestHandler):
         self.send_header("Access-Control-Allow-Origin", "*")
         self.end_headers()
         self.wfile.write(json.dumps(data, indent=2).encode("utf-8"))
+
+    def _serve_extracted_data(self) -> None:
+        """Return all cleaned text and extraction metadata from data/extracted/."""
+        extracted_dir = BASE_DATA / "extracted"
+        items = []
+
+        for json_file in sorted(extracted_dir.glob("*_extracted.json")):
+            try:
+                meta = json.loads(json_file.read_text(encoding="utf-8"))
+                items.append(meta)
+            except Exception:
+                pass
+
+        self.send_response(200)
+        self.send_header("Content-Type", "application/json; charset=utf-8")
+        self.send_header("Access-Control-Allow-Origin", "*")
+        self.end_headers()
+        self.wfile.write(json.dumps({"status": "success", "count": len(items), "items": items}, indent=2).encode("utf-8"))
 
 
 def start_server() -> None:

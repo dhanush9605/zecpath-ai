@@ -1,0 +1,33 @@
+VIKRAM PATEL
+Email: vikram.patel.cfa@example.com | Phone: +1-704-555-0199 | Location: Charlotte, NC
+LinkedIn: linkedin.com/in/vikram-patel-cfa
+
+PROFESSIONAL SUMMARY
+--------------------
+Senior Financial Analyst (FP&A) and CFA Charterholder with 5+ years building dynamic 3-statement financial models, discounted cash flow (DCF) valuations, and corporate budget forecasting for multi-entity enterprises.
+
+TECHNICAL SKILLS
+----------------
+• Financial Modeling: 3-Statement Modeling, DCF, LBO, Scenario Sensitivity Analysis
+• Analytics & ERP: Advanced Excel/VBA, Power BI, Oracle NetSuite, SAP ERP, SQL
+• Accounting & Standards: US GAAP, IFRS, Revenue Recognition (ASC 606), Variance Analysis
+
+WORK EXPERIENCE
+---------------
+Senior FP&A Analyst | Pinnacle Financial Holdings | Charlotte, NC
+July 2021 - Present
+• Built annual operating budget models forecasting $320M in revenue with 98.4% variance accuracy.
+• Prepared board-level quarterly financial decks analyzing SaaS unit economics (CAC, LTV, Net Retention).
+
+Financial Analyst | Crestview Capital Partners | Charlotte, NC
+August 2019 - June 2021
+• Conducted financial due diligence and cash flow sensitivity models for 12 M&A acquisitions.
+
+EDUCATION
+---------
+Master of Science in Finance | Vanderbilt University (2018 - 2019)
+Bachelor of Science in Accounting & Economics | University of North Carolina at Chapel Hill (2014 - 2018)
+
+CERTIFICATIONS
+--------------
+• Chartered Financial Analyst (CFA) | CFA Institute, 2022

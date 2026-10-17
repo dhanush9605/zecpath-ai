@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_09_finance.txt",
+  "file_type": "TXT",
+  "raw_text": "VIKRAM PATEL\nEmail: vikram.patel.cfa@example.com | Phone: +1-704-555-0199 | Location: Charlotte, NC\nLinkedIn: linkedin.com/in/vikram-patel-cfa\n\nSUMMARY\nSenior Financial Analyst (FP&A) and CFA Charterholder with 5+ years building dynamic 3-statement financial models, discounted cash flow (DCF) valuations, and corporate budget forecasting for multi-entity enterprises.\n\nSKILLS\n- Financial Modeling: 3-Statement Modeling, DCF, LBO, Scenario Sensitivity Analysis\n- Analytics & ERP: Advanced Excel/VBA, Power BI, Oracle NetSuite, SAP ERP, SQL\n- Accounting & Standards: US GAAP, IFRS, Revenue Recognition (ASC 606), Variance Analysis\n\nEXPERIENCE\nSenior FP&A Analyst | Pinnacle Financial Holdings | Charlotte, NC\nJuly 2021 - Present\n- Built annual operating budget models forecasting $320M in revenue with 98.4% variance accuracy.\n- Prepared board-level quarterly financial decks analyzing SaaS unit economics (CAC, LTV, Net Retention).\n\nFinancial Analyst | Crestview Capital Partners | Charlotte, NC\nAugust 2019 - June 2021\n- Conducted financial due diligence and cash flow sensitivity models for 12 M&A acquisitions.\n\nEDUCATION\nMaster of Science in Finance | Vanderbilt University (2018 - 2019)\nBachelor of Science in Accounting & Economics | University of North Carolina at Chapel Hill (2014 - 2018)\n\nCERTIFICATIONS\n- Chartered Financial Analyst (CFA) | CFA Institute, 2022",
+  "cleaned_text": "VIKRAM PATEL\nEmail: vikram.patel.cfa@example.com | Phone: +1-704-555-0199 | Location: Charlotte, NC\nLinkedIn: linkedin.com/in/vikram-patel-cfa\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior Financial Analyst (FP&A) and CFA Charterholder with 5+ years building dynamic 3-statement financial models, discounted cash flow (DCF) valuations, and corporate budget forecasting for multi-entity enterprises.\n\nTECHNICAL SKILLS\n----------------\n• Financial Modeling: 3-Statement Modeling, DCF, LBO, Scenario Sensitivity Analysis\n• Analytics & ERP: Advanced Excel/VBA, Power BI, Oracle NetSuite, SAP ERP, SQL\n• Accounting & Standards: US GAAP, IFRS, Revenue Recognition (ASC 606), Variance Analysis\n\nWORK EXPERIENCE\n---------------\nSenior FP&A Analyst | Pinnacle Financial Holdings | Charlotte, NC\nJuly 2021 - Present\n• Built annual operating budget models forecasting $320M in revenue with 98.4% variance accuracy.\n• Prepared board-level quarterly financial decks analyzing SaaS unit economics (CAC, LTV, Net Retention).\n\nFinancial Analyst | Crestview Capital Partners | Charlotte, NC\nAugust 2019 - June 2021\n• Conducted financial due diligence and cash flow sensitivity models for 12 M&A acquisitions.\n\nEDUCATION\n---------\nMaster of Science in Finance | Vanderbilt University (2018 - 2019)\nBachelor of Science in Accounting & Economics | University of North Carolina at Chapel Hill (2014 - 2018)\n\nCERTIFICATIONS\n--------------\n• Chartered Financial Analyst (CFA) | CFA Institute, 2022",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 197,
+  "character_count": 1478,
+  "lines_count": 33,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_09_finance.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1371,
+    "cleaned_length": 1478,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 197,
+    "lines_count": 33
+  },
+  "extracted_at": "2026-10-16T10:33:50.187314+00:00"
+}

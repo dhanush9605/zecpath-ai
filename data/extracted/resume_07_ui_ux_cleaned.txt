@@ -1,0 +1,33 @@
+MATEO SILVA
+Email: mateo.silva.ux@example.com | Phone: +1-305-555-0162 | Location: Miami, FL
+LinkedIn: linkedin.com/in/mateo-silva-ux | Portfolio: mateosilva.design
+
+PROFESSIONAL SUMMARY
+--------------------
+Principal Product Designer & UX Architect with 8+ years crafting intuitive consumer and enterprise experiences. Expert in Figma component tokens, accessibility compliance, and quantitative user testing.
+
+TECHNICAL SKILLS
+----------------
+• Design Systems: Figma (Variables, Auto-layout), Tokens Studio, Zeroheight
+• UX Methodologies: User Journey Mapping, Rapid Prototyping, Usability Benchmarking
+• Front-End Knowledge: HTML5, CSS/SCSS, React Basics
+
+WORK EXPERIENCE
+---------------
+Principal Product Designer | NextEra Digital | Miami, FL
+February 2021 - Present
+• Created and maintained the unified design system adopted by 40+ designers and 120 front-end engineers.
+• Redesigned mobile app onboarding flow, lifting 30-day user retention from 28% to 47%.
+
+Lead UX Designer | CreativeSphere Agency | Austin, TX
+March 2016 - January 2021
+• Led user research sprints for Fortune 500 retail clients, facilitating 100+ customer interview sessions.
+
+EDUCATION
+---------
+Bachelor of Fine Arts in Interaction Design | Savannah College of Art and Design (SCAD) (2012 - 2016)
+Summa Cum Laude
+
+CERTIFICATIONS
+--------------
+• Nielsen Norman Group UX Master Certified (NN/g, 2021)
