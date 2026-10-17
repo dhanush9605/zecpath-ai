@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_02_frontend.txt",
+  "file_type": "TXT",
+  "raw_text": "PRIYA SHARMA\nEmail: priya.sharma.tech@example.com | Phone: +1-206-555-0144 | Location: Seattle, WA\nLinkedIn: linkedin.com/in/priyasharma-web | Portfolio: priyasharma.dev\n\nSUMMARY\nLead Frontend Engineer with 6+ years driving design systems, accessible UI/UX, and high-performance Web applications using React, TypeScript, Next.js, and GraphQL.\n\nSKILLS\n- Core Web: TypeScript, JavaScript (ESNext), HTML5, CSS3, Web Components\n- Frameworks: React, Next.js, Vue.js, Tailwind CSS, Redux Toolkit, Zustand\n- Tooling: Webpack, Vite, Jest, Playwright, Storybook, Figma\n\nEXPERIENCE\nLead Frontend Engineer | PixelCraft Media | Seattle, WA\nJanuary 2022 - Present\n- Led a team of 6 engineers revamping customer dashboard in Next.js 14, improving Core Web Vitals (LCP improved by 65%).\n- Created an enterprise accessible component library across 4 consumer products reaching WCAG 2.1 AA compliance.\n\nFrontend Developer | InnovateWeb | Austin, TX\nAugust 2018 - December 2021\n- Built responsive client portal utilizing React and TypeScript integrated with GraphQL APIs.\n- Cut client-side bundle size by 42% through code-splitting and dynamic imports.\n\nEDUCATION\nBachelor of Engineering in Information Technology | University of Washington (2014 - 2018)\nFirst Class Honors\n\nCERTIFICATIONS\n- Meta Certified Front-End Developer (Meta, 2021)",
+  "cleaned_text": "PRIYA SHARMA\nEmail: priya.sharma.tech@example.com | Phone: +1-206-555-0144 | Location: Seattle, WA\nLinkedIn: linkedin.com/in/priyasharma-web | Portfolio: priyasharma.dev\n\nPROFESSIONAL SUMMARY\n--------------------\nLead Frontend Engineer with 6+ years driving design systems, accessible UI/UX, and high-performance Web applications using React, TypeScript, Next.js, and GraphQL.\n\nTECHNICAL SKILLS\n----------------\n• Core Web: TypeScript, JavaScript (ESNext), HTML5, CSS3, Web Components\n• Frameworks: React, Next.js, Vue.js, Tailwind CSS, Redux Toolkit, Zustand\n• Tooling: Webpack, Vite, Jest, Playwright, Storybook, Figma\n\nWORK EXPERIENCE\n---------------\nLead Frontend Engineer | PixelCraft Media | Seattle, WA\nJanuary 2022 - Present\n• Led a team of 6 engineers revamping customer dashboard in Next.js 14, improving Core Web Vitals (LCP improved by 65%).\n• Created an enterprise accessible component library across 4 consumer products reaching WCAG 2.1 AA compliance.\n\nFrontend Developer | InnovateWeb | Austin, TX\nAugust 2018 - December 2021\n• Built responsive client portal utilizing React and TypeScript integrated with GraphQL APIs.\n• Cut client-side bundle size by 42% through code-splitting and dynamic imports.\n\nEDUCATION\n---------\nBachelor of Engineering in Information Technology | University of Washington (2014 - 2018)\nFirst Class Honors\n\nCERTIFICATIONS\n--------------\n• Meta Certified Front-End Developer (Meta, 2021)",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 188,
+  "character_count": 1428,
+  "lines_count": 34,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_02_frontend.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1321,
+    "cleaned_length": 1428,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 188,
+    "lines_count": 34
+  },
+  "extracted_at": "2026-10-16T10:33:50.148194+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_04_devops.txt",
+  "file_type": "TXT",
+  "raw_text": "ELENA ROSTOVA\nEmail: elena.rostova.ops@example.com | Phone: +1-312-555-0177 | Location: Chicago, IL\nLinkedIn: linkedin.com/in/elena-rostova-cloud\n\nSUMMARY\nPrincipal DevOps & Cloud Platform Architect with 8+ years designing zero-trust cloud infrastructure on AWS and GCP. Expert in Kubernetes cluster lifecycle, Infrastructure as Code with Terraform, and DevSecOps compliance.\n\nSKILLS\n- Cloud Providers: AWS (ECS, EKS, IAM, VPC), Google Cloud Platform (GKE)\n- Orchestration & IaC: Kubernetes, Terraform, Helm, Ansible, Docker\n- Observability: Prometheus, Grafana, Datadog, OpenTelemetry\n- CI/CD & Security: GitHub Actions, ArgoCD, SonarQube, Vault\n\nEXPERIENCE\nPrincipal Cloud Architect | FinTech Cloudworks | Chicago, IL\nApril 2020 - Present\n- Designed multi-region active-active EKS clusters handling 12,000 req/sec with 99.999% SLA.\n- Standardized Terraform modules across 15 engineering squads, cutting infrastructure provisioning time by 80%.\n\nDevOps Engineer | MetroNet Telecom | Chicago, IL\nJune 2016 - March 2020\n- Automated CI/CD pipelines via GitHub Actions and Docker, reducing deployment cycle from 4 days to 15 minutes.\n\nEDUCATION\nBachelor of Science in Electrical & Computer Engineering | University of Illinois Urbana-Champaign (2012 - 2016)\n\nCERTIFICATIONS\n- AWS Certified Solutions Architect - Professional (AWS, 2023)\n- HashiCorp Certified: Terraform Associate (HashiCorp, 2022)",
+  "cleaned_text": "ELENA ROSTOVA\nEmail: elena.rostova.ops@example.com | Phone: +1-312-555-0177 | Location: Chicago, IL\nLinkedIn: linkedin.com/in/elena-rostova-cloud\n\nPROFESSIONAL SUMMARY\n--------------------\nPrincipal DevOps & Cloud Platform Architect with 8+ years designing zero-trust cloud infrastructure on AWS and GCP. Expert in Kubernetes cluster lifecycle, Infrastructure as Code with Terraform, and DevSecOps compliance.\n\nTECHNICAL SKILLS\n----------------\n• Cloud Providers: AWS (ECS, EKS, IAM, VPC), Google Cloud Platform (GKE)\n• Orchestration & IaC: Kubernetes, Terraform, Helm, Ansible, Docker\n• Observability: Prometheus, Grafana, Datadog, OpenTelemetry\n• CI/CD & Security: GitHub Actions, ArgoCD, SonarQube, Vault\n\nWORK EXPERIENCE\n---------------\nPrincipal Cloud Architect | FinTech Cloudworks | Chicago, IL\nApril 2020 - Present\n• Designed multi-region active-active EKS clusters handling 12,000 req/sec with 99.999% SLA.\n• Standardized Terraform modules across 15 engineering squads, cutting infrastructure provisioning time by 80%.\n\nDevOps Engineer | MetroNet Telecom | Chicago, IL\nJune 2016 - March 2020\n• Automated CI/CD pipelines via GitHub Actions and Docker, reducing deployment cycle from 4 days to 15 minutes.\n\nEDUCATION\n---------\nBachelor of Science in Electrical & Computer Engineering | University of Illinois Urbana-Champaign (2012 - 2016)\n\nCERTIFICATIONS\n--------------\n• AWS Certified Solutions Architect - Professional (AWS, 2023)\n• HashiCorp Certified: Terraform Associate (HashiCorp, 2022)",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 194,
+  "character_count": 1501,
+  "lines_count": 34,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_04_devops.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1394,
+    "cleaned_length": 1501,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 194,
+    "lines_count": 34
+  },
+  "extracted_at": "2026-10-16T10:33:50.159330+00:00"
+}

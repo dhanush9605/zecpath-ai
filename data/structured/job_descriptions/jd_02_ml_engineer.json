@@ -1,15 +1,15 @@
 {
-  "job_id": "job-002-staff-ml",
+  "job_id": "job-02-ml-engineer",
   "title": "Staff Machine Learning & Generative AI Engineer",
   "company_name": "DeepThought Systems",
-  "department": "AI Research & Engineering",
+  "department": "Engineering",
   "role_type": "TECHNICAL",
-  "seniority_level": "LEAD",
+  "seniority_level": "PRINCIPAL",
   "employment_type": "FULL_TIME",
-  "workplace_type": "HYBRID",
+  "workplace_type": "REMOTE",
   "location": {
     "city": "Boston",
-    "state_or_province": "MA",
+    "state_or_province": null,
     "country": "USA",
     "is_remote": true
   },
@@ -19,11 +19,11 @@
     "max_amount": 240000.0,
     "pay_period": "ANNUAL"
   },
-  "summary": "Leading enterprise foundation model fine-tuning, RAG indexing, and low-latency inference pipelines.",
+  "summary": "DeepThought Systems is hiring a Staff ML Engineer to build production foundation model workflows, agentic orchestration, and advanced RAG architectures.",
   "responsibilities": [
-    "Lead architecture and implementation of enterprise LLM fine-tuning pipelines.",
-    "Integrate vector databases and semantic caching into production APIs.",
-    "Establish automated evaluation benchmarks and safety guardrails."
+    "Lead the architecture and implementation of enterprise LLM fine-tuning and inference pipelines.",
+    "Integrate vector databases, semantic caching, and guardrail validation into real-time APIs.",
+    "Collaborate with product managers and researchers to turn cutting-edge model research into reliable products."
   ],
   "requirements": {
     "minimum_experience_years": 6.0,
@@ -37,48 +37,27 @@
         "verified": false
       },
       {
-        "name": "Large Language Models (LLMs)",
-        "category": "TECHNICAL",
-        "proficiency": "ADVANCED",
-        "years_of_experience": null,
-        "last_used_year": null,
-        "verified": false
-      },
-      {
         "name": "Vector Databases",
         "category": "DATABASE",
         "proficiency": "ADVANCED",
         "years_of_experience": null,
         "last_used_year": null,
         "verified": false
-      }
-    ],
-    "preferred_skills": [
-      {
-        "name": "Triton Inference Server",
-        "category": "TOOL",
-        "proficiency": "INTERMEDIATE",
-        "years_of_experience": null,
-        "last_used_year": null,
-        "verified": false
       },
       {
-        "name": "Kubeflow",
+        "name": "MLOps",
         "category": "CLOUD_DEVOPS",
-        "proficiency": "INTERMEDIATE",
+        "proficiency": "ADVANCED",
         "years_of_experience": null,
         "last_used_year": null,
         "verified": false
       }
     ],
-    "minimum_education_level": "MASTER",
+    "preferred_skills": [],
+    "minimum_education_level": "DOCTORATE",
     "required_certifications": []
   },
-  "benefits": [
-    "Health, dental, and life coverage",
-    "Home office stipend",
-    "Generous equity grant"
-  ],
-  "created_at": "2026-10-05",
+  "benefits": [],
+  "created_at": "2026-10-17",
   "is_active": true
 }

@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_08_hr_talent.txt",
+  "file_type": "TXT",
+  "raw_text": "SARAH JENKINS\nEmail: sarah.jenkins.hr@example.com | Phone: +1-404-555-0121 | Location: Atlanta, GA\nLinkedIn: linkedin.com/in/sarah-jenkins-talent\n\nSUMMARY\nSenior Technical Talent Acquisition Partner with 6+ years partnering with engineering leadership to hire world-class software, infrastructure, and AI engineering talent. Closed 180+ technical hires.\n\nSKILLS\n- Recruiting & Sourcing: Full Lifecycle Recruiting, Executive Search, Diversity Sourcing (DEI)\n- Tools & ATS: Greenhouse, Lever, Ashby, LinkedIn Recruiter, Gem, Workday\n- Metrics: Time-to-Fill, Offer Acceptance Rate, Cost-per-Hire, Candidate Experience NPS\n\nEXPERIENCE\nSenior Technical Recruiter | HyperScale AI | Atlanta, GA (Remote)\nJanuary 2021 - Present\n- Sourced and closed 75+ software engineers across distributed systems and machine learning within 24 months.\n- Maintained a 91% offer acceptance rate and reduced average time-to-fill from 62 days to 38 days.\n\nTechnical Recruiter | Apex Staffing Solutions | Atlanta, GA\nSeptember 2018 - December 2020\n- Built candidate pipelines for hyper-growth venture-backed SaaS startups.\n\nEDUCATION\nBachelor of Arts in Human Resources Management | University of Georgia (2014 - 2018)\nDean's List\n\nCERTIFICATIONS\n- SHRM Certified Professional (SHRM-CP) | SHRM, 2021\n- AIRS Certified Internet Recruiter (CIR), 2019",
+  "cleaned_text": "SARAH JENKINS\nEmail: sarah.jenkins.hr@example.com | Phone: +1-404-555-0121 | Location: Atlanta, GA\nLinkedIn: linkedin.com/in/sarah-jenkins-talent\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior Technical Talent Acquisition Partner with 6+ years partnering with engineering leadership to hire world-class software, infrastructure, and AI engineering talent. Closed 180+ technical hires.\n\nTECHNICAL SKILLS\n----------------\n• Recruiting & Sourcing: Full Lifecycle Recruiting, Executive Search, Diversity Sourcing (DEI)\n• Tools & ATS: Greenhouse, Lever, Ashby, LinkedIn Recruiter, Gem, Workday\n• Metrics: Time-to-Fill, Offer Acceptance Rate, Cost-per-Hire, Candidate Experience NPS\n\nWORK EXPERIENCE\n---------------\nSenior Technical Recruiter | HyperScale AI | Atlanta, GA (Remote)\nJanuary 2021 - Present\n• Sourced and closed 75+ software engineers across distributed systems and machine learning within 24 months.\n• Maintained a 91% offer acceptance rate and reduced average time-to-fill from 62 days to 38 days.\n\nTechnical Recruiter | Apex Staffing Solutions | Atlanta, GA\nSeptember 2018 - December 2020\n• Built candidate pipelines for hyper-growth venture-backed SaaS startups.\n\nEDUCATION\n---------\nBachelor of Arts in Human Resources Management | University of Georgia (2014 - 2018)\nDean's List\n\nCERTIFICATIONS\n--------------\n• SHRM Certified Professional (SHRM-CP) | SHRM, 2021\n• AIRS Certified Internet Recruiter (CIR), 2019",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 185,
+  "character_count": 1427,
+  "lines_count": 34,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_08_hr_talent.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1320,
+    "cleaned_length": 1427,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 185,
+    "lines_count": 34
+  },
+  "extracted_at": "2026-10-16T10:33:50.181180+00:00"
+}

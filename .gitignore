@@ -20,6 +20,7 @@ env/
 # Application runtime logs
 logs/
 *.log
+!logs/day5_test_results.log
 
 # Pytest & test cache
 .pytest_cache/
@@ -50,3 +51,5 @@ data/*
 !data/raw/**
 !data/structured/
 !data/structured/**
+!data/extracted/
+!data/extracted/**

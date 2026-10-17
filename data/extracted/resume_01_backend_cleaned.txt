@@ -1,0 +1,41 @@
+ALEX CHEN
+Email: alex.chen.dev@example.com | Phone: +1-415-555-0192 | Location: San Francisco, CA
+LinkedIn: linkedin.com/in/alexchen-backend | GitHub: github.com/alexchen-cloud
+
+PROFESSIONAL SUMMARY
+--------------------
+Senior Backend Engineer with 7+ years of experience designing high-throughput, fault-tolerant distributed systems. Specialized in Go, Python, gRPC microservices, and event-driven architectures processing 50M+ events daily.
+
+TECHNICAL SKILLS
+----------------
+• Languages: Go, Python, SQL, C++
+• Distributed Systems: Kafka, gRPC, RabbitMQ, Redis, Elasticsearch
+• Cloud & DevOps: Docker, Kubernetes, AWS (EKS, RDS, S3), Terraform
+• Databases: PostgreSQL, MongoDB, DynamoDB
+
+WORK EXPERIENCE
+---------------
+Staff Distributed Systems Engineer | CloudScale Inc. | San Francisco, CA (Hybrid)
+March 2021 - Present
+• Architected an event-driven payment reconciliation service in Go processing $40M daily volume.
+• Reduced API p99 latency from 320ms to 45ms by introducing Redis caching clusters and connection pooling.
+• Mentored a pod of 5 backend engineers in concurrency patterns, unit testing, and observability.
+
+Backend Software Engineer | DataStream Labs | San Jose, CA
+July 2017 - February 2021
+• Built asynchronous ingestion pipelines using Python, FastAPI, and Apache Kafka.
+• Designed schema migration strategies for PostgreSQL databases with 200M+ rows with zero downtime.
+
+EDUCATION
+---------
+Bachelor of Science in Computer Science | University of California, Berkeley (2013 - 2017)
+GPA: 3.8 / 4.0
+
+CERTIFICATIONS
+--------------
+• AWS Certified Solutions Architect - Associate (Amazon Web Services, 2022)
+• Certified Kubernetes Administrator (Linux Foundation, 2023)
+
+PROJECTS
+--------
+• Distributed Raft Key-Value Store: Open-source implementation of Raft consensus algorithm in Go.

@@ -1,5 +1,5 @@
 {
-  "job_id": "job-003-senior-talent",
+  "job_id": "job-03-talent-acquisition",
   "title": "Senior Talent Acquisition Partner",
   "company_name": "HyperScale AI",
   "department": "People & Talent Operations",
@@ -9,7 +9,7 @@
   "workplace_type": "REMOTE",
   "location": {
     "city": "Atlanta",
-    "state_or_province": "GA",
+    "state_or_province": null,
     "country": "USA",
     "is_remote": true
   },
@@ -19,11 +19,11 @@
     "max_amount": 140000.0,
     "pay_period": "ANNUAL"
   },
-  "summary": "Partnering with executive leadership to run full-lifecycle hiring across engineering, product, and business units.",
+  "summary": "HyperScale AI is scaling its global talent operations. We are seeking a consultative Senior Talent Partner to lead full-lifecycle technical and non-technical hiring across our product and engineering departments.",
   "responsibilities": [
     "Partner directly with VP of Engineering and Department Heads to define headcount requirements.",
-    "Drive active sourcing, boolean search, and outreach campaigns to attract top passive talent.",
-    "Manage candidate offer generation, closing negotiations, and onboarding handoffs."
+    "Drive active sourcing, boolean search, and outreach campaigns to attract high-caliber passive candidates.",
+    "Ensure fair, objective candidate evaluation and deliver an NPS-leading candidate experience."
   ],
   "requirements": {
     "minimum_experience_years": 5.0,
@@ -45,16 +45,6 @@
         "verified": false
       },
       {
-        "name": "Candidate Sourcing & Outreach",
-        "category": "DOMAIN",
-        "proficiency": "ADVANCED",
-        "years_of_experience": null,
-        "last_used_year": null,
-        "verified": false
-      }
-    ],
-    "preferred_skills": [
-      {
         "name": "DEI Strategy",
         "category": "DOMAIN",
         "proficiency": "INTERMEDIATE",
@@ -63,14 +53,11 @@
         "verified": false
       }
     ],
+    "preferred_skills": [],
     "minimum_education_level": "BACHELOR",
     "required_certifications": []
   },
-  "benefits": [
-    "100% remote flexibility",
-    "Annual wellness stipend",
-    "Performance bonus"
-  ],
-  "created_at": "2026-10-08",
+  "benefits": [],
+  "created_at": "2026-10-17",
   "is_active": true
 }

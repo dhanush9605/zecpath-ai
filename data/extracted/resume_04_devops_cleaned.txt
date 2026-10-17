@@ -1,0 +1,34 @@
+ELENA ROSTOVA
+Email: elena.rostova.ops@example.com | Phone: +1-312-555-0177 | Location: Chicago, IL
+LinkedIn: linkedin.com/in/elena-rostova-cloud
+
+PROFESSIONAL SUMMARY
+--------------------
+Principal DevOps & Cloud Platform Architect with 8+ years designing zero-trust cloud infrastructure on AWS and GCP. Expert in Kubernetes cluster lifecycle, Infrastructure as Code with Terraform, and DevSecOps compliance.
+
+TECHNICAL SKILLS
+----------------
+• Cloud Providers: AWS (ECS, EKS, IAM, VPC), Google Cloud Platform (GKE)
+• Orchestration & IaC: Kubernetes, Terraform, Helm, Ansible, Docker
+• Observability: Prometheus, Grafana, Datadog, OpenTelemetry
+• CI/CD & Security: GitHub Actions, ArgoCD, SonarQube, Vault
+
+WORK EXPERIENCE
+---------------
+Principal Cloud Architect | FinTech Cloudworks | Chicago, IL
+April 2020 - Present
+• Designed multi-region active-active EKS clusters handling 12,000 req/sec with 99.999% SLA.
+• Standardized Terraform modules across 15 engineering squads, cutting infrastructure provisioning time by 80%.
+
+DevOps Engineer | MetroNet Telecom | Chicago, IL
+June 2016 - March 2020
+• Automated CI/CD pipelines via GitHub Actions and Docker, reducing deployment cycle from 4 days to 15 minutes.
+
+EDUCATION
+---------
+Bachelor of Science in Electrical & Computer Engineering | University of Illinois Urbana-Champaign (2012 - 2016)
+
+CERTIFICATIONS
+--------------
+• AWS Certified Solutions Architect - Professional (AWS, 2023)
+• HashiCorp Certified: Terraform Associate (HashiCorp, 2022)

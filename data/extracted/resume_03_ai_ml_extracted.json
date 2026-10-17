@@ -1,0 +1,33 @@
+{
+  "file_name": "resume_03_ai_ml.txt",
+  "file_type": "TXT",
+  "raw_text": "DR. MARCUS VANCE\nEmail: marcus.vance.ai@example.com | Phone: +1-617-555-0188 | Location: Boston, MA\nLinkedIn: linkedin.com/in/marcus-vance-ai | Google Scholar: scholar.google.com/citations?user=mvance\n\nSUMMARY\nSenior AI/ML Research Scientist with a Ph.D. in Computer Science and 5+ years building deep learning systems, Large Language Model (LLM) fine-tuning pipelines, and retrieval-augmented generation (RAG) architectures.\n\nSKILLS\n- Machine Learning & DL: PyTorch, TensorFlow, Hugging Face, Scikit-learn, LangChain, LlamaIndex\n- MLOps & Vector DBs: MLflow, Kubeflow, Pinecone, Milvus, Triton Inference Server\n- Mathematics: Bayesian Inference, Optimization, Linear Algebra, Statistical Hypothesis Testing\n\nEXPERIENCE\nSenior AI Research Scientist | DeepThought Systems | Boston, MA\nSeptember 2021 - Present\n- Spearheaded fine-tuning of domain-specific 13B LLMs for enterprise contract synthesis using LoRA and QLoRA.\n- Built low-latency RAG pipeline with hybrid search (dense embeddings + BM25), boosting response relevance by 34%.\n\nMachine Learning Engineer | BioAnalytics AI | Cambridge, MA\nJune 2019 - August 2021\n- Trained convolutional neural networks for biomolecular image classification with 94.2% AUC.\n\nEDUCATION\nPh.D. in Computer Science (Machine Learning) | Massachusetts Institute of Technology (2015 - 2019)\nBachelor of Science in Mathematics & CS | Carnegie Mellon University (2011 - 2015)",
+  "cleaned_text": "DR. MARCUS VANCE\nEmail: marcus.vance.ai@example.com | Phone: +1-617-555-0188 | Location: Boston, MA\nLinkedIn: linkedin.com/in/marcus-vance-ai | Google Scholar: scholar.google.com/citations?user=mvance\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior AI/ML Research Scientist with a Ph.D. in Computer Science and 5+ years building deep learning systems, Large Language Model (LLM) fine-tuning pipelines, and retrieval-augmented generation (RAG) architectures.\n\nTECHNICAL SKILLS\n----------------\n• Machine Learning & DL: PyTorch, TensorFlow, Hugging Face, Scikit-learn, LangChain, LlamaIndex\n• MLOps & Vector DBs: MLflow, Kubeflow, Pinecone, Milvus, Triton Inference Server\n• Mathematics: Bayesian Inference, Optimization, Linear Algebra, Statistical Hypothesis Testing\n\nWORK EXPERIENCE\n---------------\nSenior AI Research Scientist | DeepThought Systems | Boston, MA\nSeptember 2021 - Present\n• Spearheaded fine-tuning of domain-specific 13B LLMs for enterprise contract synthesis using LoRA and QLoRA.\n• Built low-latency RAG pipeline with hybrid search (dense embeddings + BM25), boosting response relevance by 34%.\n\nMachine Learning Engineer | BioAnalytics AI | Cambridge, MA\nJune 2019 - August 2021\n• Trained convolutional neural networks for biomolecular image classification with 94.2% AUC.\n\nEDUCATION\n---------\nPh.D. in Computer Science (Machine Learning) | Massachusetts Institute of Technology (2015 - 2019)\nBachelor of Science in Mathematics & CS | Carnegie Mellon University (2011 - 2015)",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION"
+  ],
+  "word_count": 191,
+  "character_count": 1497,
+  "lines_count": 29,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_03_ai_ml.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1405,
+    "cleaned_length": 1497,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION"
+    ],
+    "word_count": 191,
+    "lines_count": 29
+  },
+  "extracted_at": "2026-10-16T10:33:50.153717+00:00"
+}

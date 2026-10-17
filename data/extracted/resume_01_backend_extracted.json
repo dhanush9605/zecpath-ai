@@ -1,0 +1,37 @@
+{
+  "file_name": "resume_01_backend.txt",
+  "file_type": "TXT",
+  "raw_text": "ALEX CHEN\nEmail: alex.chen.dev@example.com | Phone: +1-415-555-0192 | Location: San Francisco, CA\nLinkedIn: linkedin.com/in/alexchen-backend | GitHub: github.com/alexchen-cloud\n\nPROFESSIONAL SUMMARY\nSenior Backend Engineer with 7+ years of experience designing high-throughput, fault-tolerant distributed systems. Specialized in Go, Python, gRPC microservices, and event-driven architectures processing 50M+ events daily.\n\nSKILLS\n- Languages: Go, Python, SQL, C++\n- Distributed Systems: Kafka, gRPC, RabbitMQ, Redis, Elasticsearch\n- Cloud & DevOps: Docker, Kubernetes, AWS (EKS, RDS, S3), Terraform\n- Databases: PostgreSQL, MongoDB, DynamoDB\n\nPROFESSIONAL EXPERIENCE\nStaff Distributed Systems Engineer | CloudScale Inc. | San Francisco, CA (Hybrid)\nMarch 2021 - Present\n- Architected an event-driven payment reconciliation service in Go processing $40M daily volume.\n- Reduced API p99 latency from 320ms to 45ms by introducing Redis caching clusters and connection pooling.\n- Mentored a pod of 5 backend engineers in concurrency patterns, unit testing, and observability.\n\nBackend Software Engineer | DataStream Labs | San Jose, CA\nJuly 2017 - February 2021\n- Built asynchronous ingestion pipelines using Python, FastAPI, and Apache Kafka.\n- Designed schema migration strategies for PostgreSQL databases with 200M+ rows with zero downtime.\n\nEDUCATION\nBachelor of Science in Computer Science | University of California, Berkeley (2013 - 2017)\nGPA: 3.8 / 4.0\n\nCERTIFICATIONS\n- AWS Certified Solutions Architect - Associate (Amazon Web Services, 2022)\n- Certified Kubernetes Administrator (Linux Foundation, 2023)\n\nPROJECTS\n- Distributed Raft Key-Value Store: Open-source implementation of Raft consensus algorithm in Go.",
+  "cleaned_text": "ALEX CHEN\nEmail: alex.chen.dev@example.com | Phone: +1-415-555-0192 | Location: San Francisco, CA\nLinkedIn: linkedin.com/in/alexchen-backend | GitHub: github.com/alexchen-cloud\n\nPROFESSIONAL SUMMARY\n--------------------\nSenior Backend Engineer with 7+ years of experience designing high-throughput, fault-tolerant distributed systems. Specialized in Go, Python, gRPC microservices, and event-driven architectures processing 50M+ events daily.\n\nTECHNICAL SKILLS\n----------------\n• Languages: Go, Python, SQL, C++\n• Distributed Systems: Kafka, gRPC, RabbitMQ, Redis, Elasticsearch\n• Cloud & DevOps: Docker, Kubernetes, AWS (EKS, RDS, S3), Terraform\n• Databases: PostgreSQL, MongoDB, DynamoDB\n\nWORK EXPERIENCE\n---------------\nStaff Distributed Systems Engineer | CloudScale Inc. | San Francisco, CA (Hybrid)\nMarch 2021 - Present\n• Architected an event-driven payment reconciliation service in Go processing $40M daily volume.\n• Reduced API p99 latency from 320ms to 45ms by introducing Redis caching clusters and connection pooling.\n• Mentored a pod of 5 backend engineers in concurrency patterns, unit testing, and observability.\n\nBackend Software Engineer | DataStream Labs | San Jose, CA\nJuly 2017 - February 2021\n• Built asynchronous ingestion pipelines using Python, FastAPI, and Apache Kafka.\n• Designed schema migration strategies for PostgreSQL databases with 200M+ rows with zero downtime.\n\nEDUCATION\n---------\nBachelor of Science in Computer Science | University of California, Berkeley (2013 - 2017)\nGPA: 3.8 / 4.0\n\nCERTIFICATIONS\n--------------\n• AWS Certified Solutions Architect - Associate (Amazon Web Services, 2022)\n• Certified Kubernetes Administrator (Linux Foundation, 2023)\n\nPROJECTS\n--------\n• Distributed Raft Key-Value Store: Open-source implementation of Raft consensus algorithm in Go.",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS",
+    "PROJECTS"
+  ],
+  "word_count": 238,
+  "character_count": 1808,
+  "lines_count": 41,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_01_backend.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1718,
+    "cleaned_length": 1808,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS",
+      "PROJECTS"
+    ],
+    "word_count": 238,
+    "lines_count": 41
+  },
+  "extracted_at": "2026-10-16T10:33:50.115236+00:00"
+}

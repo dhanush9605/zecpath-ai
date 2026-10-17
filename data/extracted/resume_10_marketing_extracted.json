@@ -1,0 +1,35 @@
+{
+  "file_name": "resume_10_marketing.txt",
+  "file_type": "TXT",
+  "raw_text": "CHLOE DUPONT\nEmail: chloe.dupont.growth@example.com | Phone: +1-512-555-0105 | Location: Austin, TX\nLinkedIn: linkedin.com/in/chloe-dupont-growth\n\nSUMMARY\nGrowth Marketing Lead with 6+ years executing performance marketing, conversion rate optimization (CRO), and multichannel customer acquisition strategies generating $22M+ in pipeline revenue.\n\nSKILLS\n- Growth Channels: Paid Search (Google Ads), Paid Social (Meta, LinkedIn Ads), SEO\n- MarTech & Tools: HubSpot, Google Analytics 4 (GA4), Segment, Optimizely, Webflow\n- Data Skills: A/B Testing, Cohort Retention Analysis, SQL, Attribution Modeling\n\nEXPERIENCE\nGrowth Marketing Lead | ScaleUp SaaS | Austin, TX\nMay 2021 - Present\n- Scaled qualified inbound lead generation by 145% year-over-year while dropping customer acquisition cost (CAC) by 26%.\n- Managed $3.5M annual marketing budget across programmatic display, search, and paid social.\n\nDigital Marketing Specialist | GrowthWave Media | Denver, CO\nJuly 2018 - April 2021\n- Ran 200+ landing page A/B tests via Optimizely lifting visitor-to-demo conversion rates from 3.1% to 6.8%.\n\nEDUCATION\nBachelor of Science in Marketing & Communications | University of Texas at Austin (2014 - 2018)\n\nCERTIFICATIONS\n- Google Ads Search Professional (Google, 2023)\n- HubSpot Inbound Marketing Certified (HubSpot, 2022)",
+  "cleaned_text": "CHLOE DUPONT\nEmail: chloe.dupont.growth@example.com | Phone: +1-512-555-0105 | Location: Austin, TX\nLinkedIn: linkedin.com/in/chloe-dupont-growth\n\nPROFESSIONAL SUMMARY\n--------------------\nGrowth Marketing Lead with 6+ years executing performance marketing, conversion rate optimization (CRO), and multichannel customer acquisition strategies generating $22M+ in pipeline revenue.\n\nTECHNICAL SKILLS\n----------------\n• Growth Channels: Paid Search (Google Ads), Paid Social (Meta, LinkedIn Ads), SEO\n• MarTech & Tools: HubSpot, Google Analytics 4 (GA4), Segment, Optimizely, Webflow\n• Data Skills: A/B Testing, Cohort Retention Analysis, SQL, Attribution Modeling\n\nWORK EXPERIENCE\n---------------\nGrowth Marketing Lead | ScaleUp SaaS | Austin, TX\nMay 2021 - Present\n• Scaled qualified inbound lead generation by 145% year-over-year while dropping customer acquisition cost (CAC) by 26%.\n• Managed $3.5M annual marketing budget across programmatic display, search, and paid social.\n\nDigital Marketing Specialist | GrowthWave Media | Denver, CO\nJuly 2018 - April 2021\n• Ran 200+ landing page A/B tests via Optimizely lifting visitor-to-demo conversion rates from 3.1% to 6.8%.\n\nEDUCATION\n---------\nBachelor of Science in Marketing & Communications | University of Texas at Austin (2014 - 2018)\n\nCERTIFICATIONS\n--------------\n• Google Ads Search Professional (Google, 2023)\n• HubSpot Inbound Marketing Certified (HubSpot, 2022)",
+  "detected_sections": [
+    "PROFESSIONAL SUMMARY",
+    "TECHNICAL SKILLS",
+    "WORK EXPERIENCE",
+    "EDUCATION",
+    "CERTIFICATIONS"
+  ],
+  "word_count": 189,
+  "character_count": 1423,
+  "lines_count": 33,
+  "reader_metadata": {
+    "format": "TXT",
+    "source": "resume_10_marketing.txt"
+  },
+  "cleaning_stats": {
+    "original_length": 1316,
+    "cleaned_length": 1423,
+    "characters_removed": 0,
+    "detected_sections": [
+      "PROFESSIONAL SUMMARY",
+      "TECHNICAL SKILLS",
+      "WORK EXPERIENCE",
+      "EDUCATION",
+      "CERTIFICATIONS"
+    ],
+    "word_count": 189,
+    "lines_count": 33
+  },
+  "extracted_at": "2026-10-16T10:33:50.192311+00:00"
+}
